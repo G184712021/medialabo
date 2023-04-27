@@ -13,10 +13,9 @@ h1 {
 }
 
 h2 {
-	
+	background: linear-gradient(to left,white #ffefaf);
 	font-family: cursive;
 	margin: 5px;
-	background: linear-gradient(to left,white #ffefaf);
 }
 
 div#zentai {
