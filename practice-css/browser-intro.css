@@ -9,12 +9,12 @@ p.info {
 
 h1 {
 	color: white;
-	
+	text-shadow: navy;
 }
 
 h2 {
 	color:#3f3faf;
-	background: linear-gradient(to left,white,#ffefaf);
+	background: linear-gradient(to right,white,#ffefaf);
 	font-family: cursive;
 	margin: 5px;
 }
