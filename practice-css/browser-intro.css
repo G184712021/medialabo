@@ -14,7 +14,7 @@ h1 {
 
 h2 {
 	color:#3f3faf;
-	background: linear-gradient(to left,white #ffefaf);
+	background: linear-gradient(to left,white,#ffefaf);
 	font-family: cursive;
 	margin: 5px;
 }
