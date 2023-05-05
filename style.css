@@ -23,3 +23,16 @@ ul {
 li {
     list-style-type: none;
 }
+
+a:link {
+    color: black;
+  }
+  
+  a:visited {
+    color: red;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
