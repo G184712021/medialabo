@@ -11,8 +11,8 @@ body {
   }
 
   .hade {
-    color: red;
+    color: rgb(0, 16, 157);
     text-shadow: 10px 0 10px skyblue;
-    background-color: rgba(138, 61, 61, 0.5);
-    border: solid red;
+    background-color: rgb(225, 255, 0);
+    border: solid rgb(0, 255, 81);
   }
