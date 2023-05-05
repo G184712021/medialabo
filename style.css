@@ -8,3 +8,10 @@ body {
     background-color: rgba(138, 61, 61, 0.5);
     border: solid red;
 }
+
+h2 {
+    color: red;
+    text-shadow: 10px 0 10px skyblue;
+    background-color: rgba(138, 61, 61, 0.5);
+    border: solid red;
+}
