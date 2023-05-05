@@ -14,3 +14,10 @@ h2 {
     background-color: rgba(112, 225, 245, 0.5);
     border: solid rgb(115, 205, 247);
 }
+
+ul {
+    color: red;
+    text-shadow: 10px 0 10px skyblue;
+    background-color: rgba(138, 61, 61, 0.5);
+    border: solid red;
+}
