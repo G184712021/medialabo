@@ -19,3 +19,7 @@ ul {
     color: black;
     border: dashed green;
 }
+
+li {
+    list-style-type: none;
+}
