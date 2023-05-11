@@ -1,0 +1,18 @@
+body {
+    background-color: #70beee;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  .hade {
+    color: rgb(0, 16, 157);
+    text-shadow: 10px 0 10px skyblue;
+    background: linear-gradient(to right,white,#ffefaf);
+    border: solid rgb(0, 255, 217);
+  }
