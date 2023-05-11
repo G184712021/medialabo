@@ -20,8 +20,13 @@ function hantei() {
   
 if(yoso === kotae){
     console.log('正解です');
+} else if (yoso !== kotae){
+    if(yoso < kotae){
+        console.log('不正解です答えはもう少し大きいですよ');
+    } else {
+        console.log('不正解です答えはもう少し小さいですよ');
+    }
 }
-console.log('正解です');
   // 課題3-1: 正解判定する
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
