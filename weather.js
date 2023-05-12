@@ -46,4 +46,4 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
-console.log(data.main);
+console.log(data.main.temp_max);
