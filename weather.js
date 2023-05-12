@@ -48,5 +48,5 @@ let data = {
 ////////// 課題3-2 ここからプログラムを書こう
 console.log(data.name);
 console.log('最高気温'+data.main.temp_max);
-console.log(data.main.temp_min);
+console.log('最低気温'+data.main.temp_min);
 
