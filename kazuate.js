@@ -17,14 +17,21 @@ hantei();
 function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let yoso = 4;
-  
-if(yoso === kotae){
-    console.log('正解です');
-} else if (yoso !== kotae){
-    if(yoso < kotae){
-        console.log('不正解です答えはもう少し大きいですよ');
+  let count = 0;
+  if(count === 3){
+    console.log('まちがい．残念でした答えは' + kotae+'です');
+  } else if(count >= 4) {
+    console.log('答えは' + kotae+'でした．すでにゲームは終わっています');
+  } else if(yoso === kotae){
+        console.log('正解です');
+        count = count + 1;
+    } else if (yoso !== kotae){
+        if(yoso < kotae){
+            console.log('不正解です答えはもう少し大きいですよ');
+            count = count + 1;
     } else {
         console.log('不正解です答えはもう少し小さいですよ');
+        count = count + 1;
     }
 }
   // 課題3-1: 正解判定する
