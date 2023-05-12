@@ -49,4 +49,7 @@ let data = {
 console.log(data.name);
 console.log('最高気温'+data.main.temp_max);
 console.log('最低気温'+data.main.temp_min);
+for(let n of data){
+	console.log(n);
+}
 
