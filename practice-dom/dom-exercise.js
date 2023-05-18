@@ -26,7 +26,10 @@ for (let imageName of imageNames) {
     phototable.innerHTML += `<p><img src="${imageName}"></p>`;
 }
 // 練習4-4 箇条書き削除プログラム
-
+let w = document.querySelectorAll('li');
+for(let t of w){
+    t.remove();
+}
 
 // 練習4-5 箇条書き追加プログラム
 
