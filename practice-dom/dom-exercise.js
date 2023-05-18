@@ -20,15 +20,7 @@ p.textContent = '写真表と都市の緯度経度のページです。';
 p.style.textEmphasis='sesame green';
 h2.insertAdjacentElement('afterend', p); 
 // 練習4-3 写真表作成プログラム
-let imgFiles = ["taro.png", "jiro.png", "hanako.png"];
-let photoTable = document.querySelector('#phototable');
-for (let yo of imgFiles) {
-	let imgElement = document.createElement('img');
-	imgElement.setAttribute('src', yo);
-	let pElement = document.createElement('p');
-	pElement.appendChild(imgElement);
-	photoTable.appendChild(pElement);
-  }
+
 // 練習4-4 箇条書き削除プログラム
 let w = document.querySelectorAll('li');
 for(let t of w){
