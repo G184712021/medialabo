@@ -17,7 +17,7 @@ function hantei() {
   let yoso = 4;
   kaisu++;
 
-  let count = document.querySelector("#count");
+  let count = document.querySelector("#kaisu");
   let answer = document.querySelector("#answer");
   let kekka = document.querySelector("#kekka");
 
