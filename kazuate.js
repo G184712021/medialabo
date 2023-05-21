@@ -25,7 +25,7 @@ function hantei() {
   count.textContent = kaisu;
   answer.textContent = yoso;
 
-  console.log(kaisu + "回目の予想: " + yoso);
+  //console.log(kaisu + "回目の予想: " + yoso);
   if (kaisu >= 4) {
     kekka.textContent = "答えは " + kotae + " でした．すでにゲームは終わっています";
   } else if (kotae === yoso) {
