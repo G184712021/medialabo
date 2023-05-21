@@ -45,6 +45,8 @@ let data = {
   "cod": 200
 };
 
+
+
 ////////// 課題3-2 ここからプログラムを書こう
 console.log(data.name);
 console.log('最高気温'+data.main.temp_max);
@@ -61,3 +63,15 @@ console.log('最低気温'+data.main.temp_min);
   console.log(data.id);
   console.log(data.name);
   console.log(data.cod);
+
+  let list = document.querySelector('ul.center');
+let lis = list.querySelectorAll('li');
+let beijingLi = lis[lis.length - 1]; // 最後のli要素を取得
+
+for (let key in data) {
+    let newLi = document.createElement('li');
+    newLi.textContent = key + ': ' + data[key];
+    list.insertAdjacentElement('beforeend', newLi);
+}
+
+beijingLi.remove();
