@@ -64,4 +64,14 @@ console.log('最低気温'+data.main.temp_min);
   console.log(data.name);
   console.log(data.cod);
 
+  let mana = document.querySelector('ul.center');
 
+  let city = document.createElement('li');
+  city.textContent = data.name + ":";
+  
+  let weather = document.createElement('li');
+  weather.textContent = data.weather[0].description;
+  
+  mana.insertAdjacentElement('beforeend', city);
+  city.insertAdjacentElement('afterend', weather);
+  
