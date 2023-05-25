@@ -17,7 +17,7 @@ b1.addEventListener('click', hantei);
 function hantei() {
   
   let i = document.querySelector('input[name="nyuryoku"]');
-  let nyuryoku = i.typeof(value);
+  let nyuryoku = parseInt(value);
   kaisu++;
   let a = document.createElement('type#text');
   let count = document.querySelector("#kaisu");
