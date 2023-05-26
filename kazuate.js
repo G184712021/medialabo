@@ -20,17 +20,19 @@ function hantei() {
   let t = i.value;
   t = parseInt(t, 10);
   kaisu++;
-  let gamennosetai = document.querySelector("#kaitoubun");
-  gamennosetai.textContent = kaisu + "回目の予想: " + t;
+  //let gamennosetai = document.querySelector();
+  //gamennosetai.textContent = kaisu + "回目の予想: " + t;
 
   
-  //let count = document.querySelector("#kaisu");
+  let count = document.querySelector("#kaisu");
   let answer = document.querySelector("#answer");
   let kekka = document.querySelector("#result");
 
-  //count.textContent = kaisu;
+  count.textContent = kaisu;
   answer.textContent = t;
 
+  let pyouso = document.querySelector('p#kaitoubun');
+  pyouso.textContent = count + "回目の予想: " + answer;
   //console.log(kaisu + "回目の予想: " + yoso);
   if (kaisu >= 4) {
     kekka.textContent = "答えは " + kotae + " でした．すでにゲームは終わっています";
