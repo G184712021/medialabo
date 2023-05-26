@@ -17,15 +17,16 @@ b1.addEventListener('click', hantei);
 function hantei() {
   
   let i = document.querySelector('input[name="nyuryoku"]');
-  let nyuryoku = parseInt(i);
+  let t = i.value;
+  t = parseInt(t, 10);
   kaisu++;
-  let a = document.createElement('type#text');
+  let gamennosetai = document.querySelector("#kaitoubun");
+  gamennosetai.textContent = kaisu + "回目の予想: " + t;
+
+  
   let count = document.querySelector("#kaisu");
   let answer = document.querySelector("#answer");
   let kekka = document.querySelector("#result");
-  let p = document.createElement('p');
-  p.textContent = count +'回目の予想:' + nyuryoku;
-  a.insertAdjacentElement('afterend', p);
 
   count.textContent = kaisu;
   answer.textContent = yoso;
