@@ -28,7 +28,7 @@ function hantei() {
   let answer = document.querySelector("#answer");
   let kekka = document.querySelector("#result");
 
-  count.textContent = kaisu;
+  //count.textContent = kaisu;
   answer.textContent = yoso;
 
   //console.log(kaisu + "回目の予想: " + yoso);
