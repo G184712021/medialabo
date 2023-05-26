@@ -29,7 +29,7 @@ function hantei() {
   let kekka = document.querySelector("#result");
 
   //count.textContent = kaisu;
-  answer.textContent = yoso;
+  answer.textContent = t;
 
   //console.log(kaisu + "回目の予想: " + yoso);
   if (kaisu >= 4) {
