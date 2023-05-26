@@ -30,9 +30,9 @@ function hantei() {
 
   count.textContent = kaisu;
   answer.textContent = t;
-
   let pyouso = document.querySelector('#kaitoubun');
   pyouso.textContent = count + "回目の予想: " + answer;
+
   if (kaisu >= 4) {
     kekka.textContent = "答えは " + kotae + " でした．すでにゲームは終わっています";
   } else if (kotae === yoso) {
