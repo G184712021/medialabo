@@ -40,7 +40,7 @@ function hantei() {
   } else {
     if (kaisu === 3) {
       kekka.textContent = "まちがい．残念でした答えは " + kotae + " です．";
-    } else if (kotae > yoso) {
+    } else if (kotae > answer) {
       kekka.textContent = "まちがい．答えはもっと大きいですよ";
     } else {
       kekka.textContent = "まちがい．答えはもっと小さいですよ";
