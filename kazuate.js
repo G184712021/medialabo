@@ -35,7 +35,7 @@ function hantei() {
 
   if (kaisu >= 4) {
     kekka.textContent = "答えは " + kotae + " でした．すでにゲームは終わっています";
-  } else if (kotae === yoso) {
+  } else if (kotae === answer) {
     kekka.textContent = "正解です．おめでとう!";
   } else {
     if (kaisu === 3) {
