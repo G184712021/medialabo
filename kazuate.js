@@ -24,7 +24,7 @@ function hantei() {
   gamennosetai.textContent = kaisu + "回目の予想: " + t;
 
   
-  let count = document.querySelector("#kaisu");
+  //let count = document.querySelector("#kaisu");
   let answer = document.querySelector("#answer");
   let kekka = document.querySelector("#result");
 
