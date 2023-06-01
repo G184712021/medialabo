@@ -14,9 +14,6 @@ b1.addEventListener('click', hantei);
 function hantei() {
   let i = document.querySelector('#nyuryoku');
   let yoso = i.value;
-  console.log(yoso);
-  //Number(i);
-  //i.value;
   yoso = Number(yoso);
   kaisu++;
 
