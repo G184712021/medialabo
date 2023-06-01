@@ -18,16 +18,16 @@ let h2 = document.querySelector('h2#ex42');
 let p = document.createElement('p');
 p.textContent = '写真表と都市の緯度経度のページです。';
 p.style.textEmphasis='sesame green';
-h2.insertAdjacentElement('afterend', p); 
+h2.insertAdjacentElement('afterend',p); 
 // 練習4-3 写真表作成プログラム
-let irasutoya = ["taro.png", "jiro.png", "hanako.png"];
+let irasutoya = ["taro.png","jiro.png","hanako.png"];
 let photoTable = document.querySelector("#phototable");
 for (let a of irasutoya) {
     let imagen = document.createElement('img');
     imagen.setAttribute('src', a);
     let pingu = document.createElement('p');
-    pingu.insertAdjacentElement('beforeend', imagen);
-    photoTable.insertAdjacentElement('beforeend', pingu);
+    pingu.insertAdjacentElement('beforeend',imagen);
+    photoTable.insertAdjacentElement('beforeend',pingu);
 }
 // 練習4-4 箇条書き削除プログラム
 let w = document.querySelectorAll('li');
