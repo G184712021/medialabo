@@ -26,7 +26,7 @@ for (let a of irasutoya) {
     let imagen = document.createElement('img');
     imagen.setAttribute('src', a);
     let pingu = document.createElement('p');
-    pElement.insertAdjacentElement('beforeend', imagen);
+    pingu.insertAdjacentElement('beforeend', imagen);
     photoTable.insertAdjacentElement('beforeend', pingu);
 }
 // 練習4-4 箇条書き削除プログラム
