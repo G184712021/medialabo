@@ -17,7 +17,7 @@ function hantei() {
   console.log(yoso);
   //Number(i);
   //i.value;
-  yoso = parseInt(yoso, 10);
+  yoso = Number(yoso);
   kaisu++;
 
   let count = document.querySelector('span#kaisu');
