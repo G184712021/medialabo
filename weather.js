@@ -81,7 +81,7 @@ console.log('最低気温'+data.main.temp_min);
   function sendRequest() {
     // URL を設定
     let a ='2643743';
-    let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + a + '-'+'.json';
+    let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + a +'.json';
   
     // 通信開始
     axios.get(url)
