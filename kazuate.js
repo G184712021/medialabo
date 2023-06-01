@@ -8,8 +8,6 @@ let kaisu = 0;
 let b1 = document.querySelector('button#kaito');
 b1.addEventListener('click', hantei); 
 
-
-
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
   let i = document.querySelector('#nyuryoku');
@@ -23,7 +21,6 @@ function hantei() {
   answer.textContent = yoso;
   let kekka = document.querySelector('p#result');
 
-  
   if (kaisu >= 4) {
     kekka.textContent = "答えは " + kotae + " でした．すでにゲームは終わっています";
   } else if (kotae === yoso) {
