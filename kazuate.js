@@ -12,9 +12,9 @@ b1.addEventListener('click', hantei);
 
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
-  let i = document.querySelector('#nyuryoku');
-  i.textContent = Number(i);
-  let yoso = i;
+  let yoso = document.querySelector('#nyuryoku');
+  yoso.textContent = Number(i);
+  //let yoso = i;
   //i.value;
   //t = parseInt(t, 10);
   kaisu++;
