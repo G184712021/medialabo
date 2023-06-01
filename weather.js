@@ -104,6 +104,7 @@ console.log('最低気温'+data.main.temp_min);
     console.log(data);
   
     //console.log(temp_min);
+    console.log(data.base);
   }
   
   // 通信エラーが発生した時の処理
