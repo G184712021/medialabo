@@ -18,10 +18,11 @@ function hantei() {
   kaisu++;
 
   let count = document.querySelector('span#kaisu');
-  let answer = document.querySelector('span#answer');
-  let kekka = document.querySelector('p#result');
   count.textContent = kaisu;
+  let answer = document.querySelector('span#answer');
   answer.textContent = yoso;
+  let kekka = document.querySelector('p#result');
+
   
   if (kaisu >= 4) {
     kekka.textContent = "答えは " + kotae + " でした．すでにゲームは終わっています";
