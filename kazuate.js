@@ -19,9 +19,9 @@ function hantei() {
   kaisu++;
 
   
-  let count = document.querySelector("#kaisu");
-  let answer = document.querySelector("#answer");
-  let kekka = document.querySelector("#result");
+  let count = document.querySelector('span#kaisu');
+  let answer = document.querySelector('span#answer');
+  let kekka = document.querySelector('span#result');
 
   count.textContent = kaisu;
   answer.textContent = t;
