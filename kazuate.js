@@ -14,8 +14,9 @@ b1.addEventListener('click', hantei);
 function hantei() {
   
   let i = document.querySelector('#nyuryoku');
-  let t = i.value;
-  t = parseInt(t, 10);
+  let t = Number(i);
+  //i.value;
+  //t = parseInt(t, 10);
   kaisu++;
 
   
