@@ -21,7 +21,7 @@ function hantei() {
   
   let count = document.querySelector('span#kaisu');
   let answer = document.querySelector('span#answer');
-  let kekka = document.querySelector('span#result');
+  let kekka = document.querySelector('p#result');
 
   count.textContent = kaisu;
   answer.textContent = t;
