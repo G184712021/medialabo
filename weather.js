@@ -150,7 +150,7 @@ console.log('最低気温'+data.main.temp_min);
   wind.textContent = "風の強さは"+data.wind.speed+"です。";
 
   let presure = document.querySelector('span#presure');
-  presure.textContent = "気圧は"+data.main.presure;
+  presure.textContent = "気圧は"+data.main.pressure;
   
 let tenkigazou = document.querySelector("img#imagetenki");
 tenkigazou.insertAdjacentElement('beforeend', png);
