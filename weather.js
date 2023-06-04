@@ -99,7 +99,57 @@ console.log('最低気温'+data.main.temp_min);
   } else if (data.name === "Paris"){
       data.name = "パリ";
   }
+  let tennkihantei;
+  if(data.weather[0].description==="曇りがち"){
+    tennkihantei = 雲多め;
+    png = "kumori.PNG";
+  }else if(data.weather[0].description==="小雨"){
+    tennkihantei = 小雨;
+    png = "ame.PNG";
+  }else if(data.weather[0].description==="霧"){
+    tennkihantei = 霧;
+    png = "kumooome.PNG";
+  }else if(data.weather[0].description==="厚い雲"){
+    tennkihantei = 雲集め;
+    png = "kumooome.PNG";
+  }else if(data.weather[0].description==="晴天"){
+    tennkihantei = 晴れ;
+    png = "hare.PNG";
+  }else{
+    png = "hare.PNG";
+  }
 
+  let kuni = document.querySelector('span#kuni');
+  kuni.textContent = data.name +"の天気";
+
+  let tenkii = document.querySelector('span#tenkii');
+  tenkii.textContent = tennkihantei;
+
+  let temp = document.querySelector('span#temp');
+  temp.textContent = "気温は"+data.main.temp;
+
+  let temp_max = document.querySelector('span#temp_max');
+  temp_max.textContent = "最高気温は"+data.main.temp_max;
+
+  let temp_min = document.querySelector('span#temp_min');
+  temp_min.textContent = "最低気温は"+data.main.temp_min;
+
+  let feels_like = document.querySelector('span#feels_like');
+  feels_like.textContent = "体感気温はまぁ大体"+data.main.feels_like+"位ってところかな";
+
+  let humidity = document.querySelector('span#humidity');
+  humidity.textContent = "humidity is "+data.main.humidity+"%(may be)";
+
+  let wind = document.querySelector('span#wind');
+  wind.textContent = "風の強さは"+data.main.wind+"です。";
+
+  let presure = document.querySelector('span#presure');
+  presure.textContent = "気圧は"+data.wind.presure;
+  
+let tenkigazou = document.querySelector("img#imagetenki");
+tenkigazou.insertAdjacentElement('beforeend', png);
+
+//tenkigazou.src = png;
 
     // data をコンソールに出力
     console.log(data);
