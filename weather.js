@@ -64,27 +64,21 @@ console.log('最低気温'+data.main.temp_min);
   console.log(data.name);
   console.log(data.cod);*/
 
-  let mana = document.querySelector('ul.center');
 
-  let city = document.createElement('li');
-  city.textContent = data.name + ":";
   
-  let weather = document.createElement('li');
-  weather.textContent = data.weather[0].description;
-  
-  mana.insertAdjacentElement('beforeend', city);
-  city.insertAdjacentElement('afterend', weather);
-  
-  let b = document.querySelector('#print');
-  b.addEventListener('click', sendRequest);
+  let botan = document.querySelector('button#print');
+  botan.addEventListener('click', sendRequest);
 
   function sendRequest() {
     // URL を設定
-    let a ='2643743';
-    let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + a +'.json';
-  
+    //let a ='2643743';
+    //let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + a +'.json';
+    let n = document.querySelector('#itiran[name="nishita"]');
+    let suuzi = n.value;
+    let rink = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + suuzi +'.json';
+
     // 通信開始
-    axios.get(url)
+    axios.get(rink)
       .then(showResult)
       .catch(showError)
       .then(finish);
@@ -100,6 +94,13 @@ console.log('最低気温'+data.main.temp_min);
       data = JSON.parse(data);
     }
   
+    if(data.name === "State of Rio de Janeiro"){
+      data.name = "リオデジャネイロ";
+  } else if (data.name === "Paris"){
+      data.name = "パリ";
+  }
+
+
     // data をコンソールに出力
     console.log(data);
   
