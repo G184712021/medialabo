@@ -147,6 +147,7 @@ console.log('最低気温'+data.main.temp_min);
   let presure = document.querySelector('span#presure');
   presure.textContent = "気圧は"+data.main.pressure;
   
+  let kekkaimg = document.createElement('img');
   kekkaimg.setAttribute('src', png);
   imagetenki.insertAdjacentElement('beforeend', kekkaimg);
 
