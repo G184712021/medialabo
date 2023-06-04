@@ -88,7 +88,7 @@ console.log('最低気温'+data.main.temp_min);
   function showResult(resp) {
     let gi = new Boolean(false);
     if(gi === true){
-      kekkaimg.remove();
+      imagetenki.remove();
     }
     // サーバから送られてきたデータを出力
     let data = resp.data;
