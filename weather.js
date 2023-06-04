@@ -86,6 +86,10 @@ console.log('最低気温'+data.main.temp_min);
   
   // 通信が成功した時の処理
   function showResult(resp) {
+    let gi = new Boolean(false);
+    if(gi === true){
+      kekkaimg.remove();
+    }
     // サーバから送られてきたデータを出力
     let data = resp.data;
   
@@ -103,21 +107,27 @@ console.log('最低気温'+data.main.temp_min);
   if(data.weather[0].description==="曇りがち"){
     tennkihantei = "雲多め";
     png = "kumori.png";
+    gi = true;
   }else if(data.weather[0].description==="小雨"){
     tennkihantei = "小雨";
     png = "ame.png";
+    gi = true;
   }else if(data.weather[0].description==="霧"){
     tennkihantei = "霧";
     png = "kumooome.png";
+    gi = true;
   }else if(data.weather[0].description==="厚い雲"){
     tennkihantei = "雲厚め";
     png = "kumooome.png";
+    gi = true;
   }else if(data.weather[0].description==="晴天"){
     tennkihantei = "晴れ";
     png = "hare.png";
+    gi = true;
   }else{
     tennkihantei = "晴れ";
     png = "hare.png";
+    gi = true;
   }
 
   let kuni = document.querySelector('span#kuni');
