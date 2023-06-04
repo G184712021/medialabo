@@ -102,22 +102,22 @@ console.log('最低気温'+data.main.temp_min);
   let tennkihantei;
   if(data.weather[0].description==="曇りがち"){
     tennkihantei = "雲多め";
-    png = "kumori.PNG";
+    png = "kumori.png";
   }else if(data.weather[0].description==="小雨"){
     tennkihantei = "小雨";
-    png = "ame.PNG";
+    png = "ame.png";
   }else if(data.weather[0].description==="霧"){
     tennkihantei = "霧";
-    png = "kumooome.PNG";
+    png = "kumooome.png";
   }else if(data.weather[0].description==="厚い雲"){
     tennkihantei = "雲厚め";
-    png = "kumooome.PNG";
+    png = "kumooome.png";
   }else if(data.weather[0].description==="晴天"){
     tennkihantei = "晴れ";
-    png = "hare.PNG";
+    png = "hare.png";
   }else{
     tennkihantei = "晴れ";
-    png = "hare.PNG";
+    png = "hare.png";
   }
 
   let kuni = document.querySelector('span#kuni');
