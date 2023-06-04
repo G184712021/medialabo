@@ -103,18 +103,23 @@ console.log('最低気温'+data.main.temp_min);
   if(data.weather[0].description==="曇りがち"){
     tennkihantei = 雲多め;
     png = "kumori.PNG";
+    data.weather[0].description="cloud";
   }else if(data.weather[0].description==="小雨"){
     tennkihantei = 小雨;
     png = "ame.PNG";
+    data.weather[0].description="smalllainy";
   }else if(data.weather[0].description==="霧"){
     tennkihantei = 霧;
     png = "kumooome.PNG";
+    data.weather[0].description="kiri";
   }else if(data.weather[0].description==="厚い雲"){
-    tennkihantei = 雲集め;
+    tennkihantei = 雲厚め;
     png = "kumooome.PNG";
+    data.weather[0].description="bigcloud";
   }else if(data.weather[0].description==="晴天"){
     tennkihantei = 晴れ;
     png = "hare.PNG";
+    data.weather[0].description="sunny";
   }else{
     png = "hare.PNG";
   }
