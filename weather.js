@@ -73,7 +73,7 @@ console.log('最低気温'+data.main.temp_min);
     // URL を設定
     //let a ='2643743';
     //let url = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + a +'.json';
-    let n = document.querySelector('#itiran[name="nishita"]');
+    let n = document.querySelector('#nishita[name="itiran"]');
     let suuzi = n.value;
     let rink = 'https://www.nishita-lab.org/web-contents/jsons/openweather/' + suuzi +'.json';
 
