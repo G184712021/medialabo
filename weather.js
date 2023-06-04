@@ -147,10 +147,11 @@ console.log('最低気温'+data.main.temp_min);
   let presure = document.querySelector('span#presure');
   presure.textContent = "気圧は"+data.main.pressure;
   
-let tenkigazou = document.querySelector("img#imagetenki");
-let imagen = document.createElement('img');
-    imagen.setAttribute('src', png);
-    tenkigazou.insertAdjacentElement('beforeend', png);
+  kekkaimg.setAttribute('src', png);
+  imagetenki.insertAdjacentElement('beforeend', kekkaimg);
+
+    
+    
 //tenkigazou.src = png;
 
     // data をコンソールに出力
