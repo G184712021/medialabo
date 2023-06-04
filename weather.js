@@ -147,7 +147,7 @@ console.log('最低気温'+data.main.temp_min);
   humidity.textContent = "humidity is "+data.main.humidity+"%(may be)";
 
   let wind = document.querySelector('span#wind');
-  wind.textContent = "風の強さは"+data.main.wind.speed+"です。";
+  wind.textContent = "風の強さは"+data.wind.speed+"です。";
 
   let presure = document.querySelector('span#presure');
   presure.textContent = "気圧は"+data.main.presure;
