@@ -11,6 +11,9 @@ h1 {
 
 p {
     text-align: center;
-    color :white;
     font-size: 30px;
+}
+
+.huzake {
+    position: fixed;
 }
