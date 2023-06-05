@@ -20,3 +20,7 @@ body {
   div.h1 {
     text-align: center;
   }
+
+  div#gazo {
+    size: 50;
+  }
