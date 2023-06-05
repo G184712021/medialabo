@@ -21,6 +21,7 @@ body {
     text-align: center;
   }
 
-  div#gazo {
-    size: 12;
+  .title {
+    text-align: center;
   }
+  
