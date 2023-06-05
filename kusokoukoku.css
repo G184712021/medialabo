@@ -1,12 +1,12 @@
 body {
-    background-color: black;
+    background-color: orangered;
   }
 
 h1 {
     text-align: center;
     border: dashed red;
     color:yellow;
-    background-color: white;
+    background-color: black;
 }
 
 p {
