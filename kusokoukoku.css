@@ -4,8 +4,9 @@ body {
 
 h1 {
     text-align: center;
-    border: dashed red and yellow;
+    border: dashed red;
     color:yellow;
+    background-color: white;
 }
 
 p {
