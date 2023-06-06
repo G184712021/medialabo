@@ -26,6 +26,7 @@ body {
 
   .title {
     text-align: center;
+    background-color: #ffffff;
   }
 
   #kuni {
@@ -61,6 +62,6 @@ body {
   }
 
   #presure {
-    color: rgb(255, 255, 255);
+    color: rgb(219, 127, 127);
   }
 
