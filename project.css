@@ -28,14 +28,39 @@ body {
     text-align: center;
   }
 
-  #temp_max {
+  #kuni {
     color: rgb(255, 0, 0);
   }
 
+  #tenkii {
+    color: rgb(0, 255, 4);
+  }
+
+  #temp {
+    color: rgb(0, 38, 255);
+  }
+
+  #temp_max {
+    color: rgb(255, 0, 195);
+  }
+
   #temp_min {
-    color: rgb(0, 55, 255);
+    color: rgb(221, 255, 0);
   }
 
   #feels_like {
-    color: rgb(0, 255, 98);
+    color: rgb(0, 221, 255);
   }
+
+  #humidity {
+    color: rgb(255, 140, 0);
+  }
+
+  #wind {
+    color: rgb(187, 209, 46);
+  }
+
+  #presure {
+    color: rgb(255, 255, 255);
+  }
+
