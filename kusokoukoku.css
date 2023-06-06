@@ -1,10 +1,10 @@
 body {
-    background-color: orangered;
+    background-color: rgb(33, 235, 33);
   }
 
 h1 {
     text-align: center;
-    border: dashed red;
+    border: dashed rgb(251, 255, 0);
     color:yellow;
     background-color: black;
 }
