@@ -104,6 +104,7 @@ console.log('最低気温'+data.main.temp_min);
       data.name = "パリ";
   }
   let tennkihantei;
+  let png;
   if(data.weather[0].description==="曇りがち"){
     tennkihantei = "雲多め";
     png = "kumori.png";
