@@ -126,7 +126,7 @@ console.log('最低気温'+data.main.temp_min);
     gi = true;
   }else{
     tennkihantei = "晴れ";
-    png = "hare.png";
+    png = "medialabo/hare.png";
     gi = true;
   }
 
