@@ -27,4 +27,15 @@ body {
   .title {
     text-align: center;
   }
-  
+
+  #temp_max {
+    color: rgb(255, 0, 0);
+  }
+
+  #temp_min {
+    color: rgb(0, 55, 255);
+  }
+
+  #feels_like {
+    color: rgb(0, 255, 98);
+  }
