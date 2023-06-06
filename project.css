@@ -15,7 +15,7 @@ body {
   .hade {
     color: rgb(0, 16, 157);
     text-shadow: 10px 0 10px skyblue;
-    background: linear-gradient(to right,white,#ffefaf);
+    background: linear-gradient(to right,rgb(34, 191, 215),#1f7dc4);
     border: solid rgb(0, 255, 217);
   }
 
