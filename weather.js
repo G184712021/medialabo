@@ -64,7 +64,6 @@ console.log('最低気温'+data.main.temp_min);
   console.log(data.name);
   console.log(data.cod);*/
 
-  let kekkaimg = document.createElement('img');
   
   let botan = document.querySelector('button#print');
   botan.addEventListener('click', sendRequest);
@@ -104,30 +103,23 @@ console.log('最低気温'+data.main.temp_min);
       data.name = "パリ";
   }
   let tennkihantei;
-  let png;
   if(data.weather[0].description==="曇りがち"){
     tennkihantei = "雲多め";
-    png = "kumori.png";
     gi = true;
   }else if(data.weather[0].description==="小雨"){
     tennkihantei = "小雨";
-    png = "ame.png";
     gi = true;
   }else if(data.weather[0].description==="霧"){
     tennkihantei = "霧";
-    png = "kumooome.png";
     gi = true;
   }else if(data.weather[0].description==="厚い雲"){
     tennkihantei = "雲厚め";
-    png = "kumooome.png";
     gi = true;
   }else if(data.weather[0].description==="晴天"){
     tennkihantei = "晴れ";
-    png = "hare.png";
     gi = true;
   }else{
     tennkihantei = "晴れ";
-    png = "hare.png";
     gi = true;
   }
 
@@ -158,9 +150,6 @@ console.log('最低気温'+data.main.temp_min);
   let presure = document.querySelector('span#presure');
   presure.textContent = "気圧は"+data.main.pressure;
   
-  
-  kekkaimg.setAttribute('src', png);
-  imagetenki.insertAdjacentElement('beforeend', kekkaimg);
 
     
     
