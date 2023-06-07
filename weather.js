@@ -107,16 +107,16 @@ console.log('最低気温'+data.main.temp_min);
     tennkihantei = "雲多め";
     gi = true;
   }else if(data.weather[0].description==="小雨"){
-    tennkihantei = "小雨";
+    tennkihantei = "小雨なので置き傘持って行くといいよ";
     gi = true;
   }else if(data.weather[0].description==="霧"){
-    tennkihantei = "霧";
+    tennkihantei = "霧が発生します。";
     gi = true;
   }else if(data.weather[0].description==="厚い雲"){
     tennkihantei = "雲厚め";
     gi = true;
   }else if(data.weather[0].description==="晴天"){
-    tennkihantei = "晴れ";
+    tennkihantei = "雲ひとつない空(晴れ)";
     gi = true;
   }else{
     tennkihantei = "晴れ";
