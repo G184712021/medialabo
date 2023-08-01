@@ -26,8 +26,8 @@ function hantei() {
 
   let tekianswer = document.querySelector('span#tekianswer');
   tekianswer.textContent = kotae;
-  console.log(syouri);
-  console.log(haiboku);
+  
+  
 
 if (kaisu >= 6) {
     kekka.textContent = "すでにゲームは終わっています";
@@ -41,9 +41,11 @@ if (kaisu >= 6) {
     if(yoso > tekianswer){
       kekka.textContent = "あなたの勝ちです!いいですね!";
       syouri++;
+      console.log(syouri);
     } else {
       kekka.textContent = "あなたの負けです。頑張りましょう.";
       haiboku++;
+      console.log(haiboku);
     }
   }
 }
