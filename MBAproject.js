@@ -40,7 +40,7 @@ function hantei() {
     } else if(yoso > tekianswer){
       kekka.textContent = "あなたの勝ちです!いいですね!";
       syouri++;
-    } else if (yoso < tekianswer){
+    } else {
       kekka.textContent = "あなたの負けです。頑張りましょう.";
       haiboku++;
     }
