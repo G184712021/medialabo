@@ -12,7 +12,7 @@ b1.addEventListener('click', hantei);
 
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
-  let kotae = Math.floor(Math.random()*31) + 1;
+  let kotae = Math.floor(Math.random()*61) + 1;
   let i = document.querySelector('#nyuryoku');
   let yoso = i.value;
   yoso = Number(yoso);
