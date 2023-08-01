@@ -23,7 +23,7 @@ function hantei() {
   answer.textContent = yoso;
   let kekka = document.querySelector('p#result');
 
-  let tekianswer = document.querySelector('p#tekianswer');
+  let tekianswer = document.querySelector('span#tekianswer');
   tekianswer.textContent = kotae;
 
 
