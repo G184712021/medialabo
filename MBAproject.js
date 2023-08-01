@@ -29,23 +29,19 @@ function hantei() {
   
   
 
-if (kaisu >= 6) {
+  if (kaisu >= 6) {
     kekka.textContent = "すでにゲームは終わっています";
-  } else if (kaisu === 5) {
-    if (syouri < haiboku) {
-      kekka.textContent = "残念!!不合格です．";
-    } else if (syouri > haiboku) {
-      kekka.textContent = "おめでとう!!合格です.";
-    }
   } else {
-    if(yoso > tekianswer){
+    if (kaisu === 5 && syouri < haiboku) {
+      kekka.textContent = "残念!!不合格です．";
+    } else if (kaisu === 5 && syouri > haiboku) {
+      kekka.textContent = "おめでとう!!合格です.";
+    } else if(yoso > kotae){
       kekka.textContent = "あなたの勝ちです!いいですね!";
       syouri++;
-      console.log(syouri);
     } else {
       kekka.textContent = "あなたの負けです。頑張りましょう.";
       haiboku++;
-      console.log(haiboku);
     }
   }
 }
