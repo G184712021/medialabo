@@ -12,7 +12,7 @@ b1.addEventListener('click', hantei);
 
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
-  let kotae = Math.floor(Math.random()*31);
+  let kotae = Math.floor(Math.random()*31) + 1;
   let i = document.querySelector('#nyuryoku');
   let yoso = i.value;
   yoso = Number(yoso);
@@ -46,3 +46,19 @@ function hantei() {
     }
   }
 }
+
+
+/*if (kaisu >= 4) {
+    kekka.textContent = "答えは " + kotae + " でした．すでにゲームは終わっています";
+  } else if (kotae === yoso) {
+    kekka.textContent = "正解です．おめでとう!";
+  } else {
+    if (kaisu === 3) {
+      kekka.textContent = "まちがい．残念でした答えは " + kotae + " です．";
+    } else if (kotae > yoso) {
+      kekka.textContent = "まちがい．答えはもっと大きいですよ";
+    } else {
+      kekka.textContent = "まちがい．答えはもっと小さいですよ";
+    }
+  }
+}*/
