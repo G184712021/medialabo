@@ -29,8 +29,30 @@ function hantei() {
   console.log(syouri);
   console.log(haiboku);
 
+if (kaisu >= 6) {
+    kekka.textContent = "すでにゲームは終わっています";
+  } else if (kaisu === 5) {
+    if (syouri < haiboku) {
+      kekka.textContent = "残念!!不合格です．";
+    } else if (syouri > haiboku) {
+      kekka.textContent = "おめでとう!!合格です.";
+    }
+  } else {
+    if(yoso > tekianswer){
+      kekka.textContent = "あなたの勝ちです!いいですね!";
+      syouri++;
+    } else {
+      kekka.textContent = "あなたの負けです。頑張りましょう.";
+      haiboku++;
+    }
+  }
+}
 
-  if (kaisu >= 6) {
+
+
+
+
+  /*if (kaisu >= 6) {
     kekka.textContent = "すでにゲームは終わっています";
   } else {
     if (kaisu === 5 && syouri < haiboku) {
@@ -43,22 +65,6 @@ function hantei() {
     } else {
       kekka.textContent = "あなたの負けです。頑張りましょう.";
       haiboku++;
-    }
-  }
-}
-
-
-/*if (kaisu >= 4) {
-    kekka.textContent = "答えは " + kotae + " でした．すでにゲームは終わっています";
-  } else if (kotae === yoso) {
-    kekka.textContent = "正解です．おめでとう!";
-  } else {
-    if (kaisu === 3) {
-      kekka.textContent = "まちがい．残念でした答えは " + kotae + " です．";
-    } else if (kotae > yoso) {
-      kekka.textContent = "まちがい．答えはもっと大きいですよ";
-    } else {
-      kekka.textContent = "まちがい．答えはもっと小さいですよ";
     }
   }
 }*/
