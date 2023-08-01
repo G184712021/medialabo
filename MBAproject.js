@@ -26,7 +26,8 @@ function hantei() {
 
   let tekianswer = document.querySelector('span#tekianswer');
   tekianswer.textContent = kotae;
-
+  console.log(syouri);
+  console.log(haiboku);
 
 
   if (kaisu >= 6) {
