@@ -1,8 +1,3 @@
-// 答え
-
-//console.log('答え（デバッグ用）: ' + kotae);
-
-// 入力回数（予想回数）
 let kaisu = 0;
 let syouri = 0;
 let haiboku = 0;
@@ -13,7 +8,7 @@ b1.addEventListener('click', hantei);
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
   let kotae = Math.floor(Math.random()*61) + 1;
-  let i = document.querySelector('#nyuryoku');
+  let i = document.querySelector('#nyuryoku[name="suuzi"]');
   let yoso = i.value;
   yoso = Number(yoso);
   kaisu++;
