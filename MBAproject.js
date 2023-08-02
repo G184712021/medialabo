@@ -170,7 +170,7 @@ function startGame(st) {
 function FrameProc() {
 
     // 背景色の設定
-    context.fillStyle = "white";
+    context.fillStyle = "sky blue";
     context.fillRect(0, 0, 640, 480);
 
     // 敵動作フレーム
