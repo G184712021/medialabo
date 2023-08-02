@@ -2,7 +2,7 @@
 
 // 単語のリスト
 const words = [
-    "apple",
+    "こんにちは",
     "banana",
     "cherry",
     "date",
@@ -60,7 +60,7 @@ const words = [
       // 正解の場合、スコアを加算して次の単語を表示する
       score++;
       inputElement.value = "";
-      //wordIndex = Math.floor(Math.random() * words.length);
+      wordIndex = Math.floor(Math.random() * words.length);
       currentWord = words[wordIndex];
       updateDisplay();
     }
