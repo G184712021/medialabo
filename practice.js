@@ -29,7 +29,7 @@ const words = [
     "yellow watermelon",
     "zucchini"
   ];
-  
+  let i = 1;
   // HTML要素の取得
   const wordElement = document.getElementById("word");
   const inputElement = document.getElementById("input");
@@ -41,7 +41,8 @@ const words = [
   // ゲームの初期状態
   let score = 0;
   let time = 60;
-  let wordIndex = Math.floor(Math.random() * words.length);
+  //let wordIndex = Math.floor(Math.random() * words.length);
+  let wordIndex =i;
   let currentWord = words[wordIndex];
   let isPlaying = false;
   let timerId;
@@ -59,8 +60,10 @@ const words = [
     if (inputElement.value.trim() === currentWord) {
       // 正解の場合、スコアを加算して次の単語を表示する
       score++;
+      i++;
       inputElement.value = "";
-      wordIndex = Math.floor(Math.random() * words.length);
+      //wordIndex = Math.floor(Math.random() * words.length);
+      wordIndex = i;
       currentWord = words[wordIndex];
       updateDisplay();
     }
