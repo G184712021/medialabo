@@ -2,7 +2,7 @@
 let context;            // canvas id="ContextArea"
 
 // ★チューニング要素
-const wallWidth = 3;
+const wallWidth = 10;
 const wallHeight = 2;
 let muteki = false;     // 無敵モード（[a]で切り替え）
 
