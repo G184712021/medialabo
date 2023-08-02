@@ -34,7 +34,7 @@ const char = {
     enemy0: "0x1F991",//一番上の敵
     enemy1: "0x1F647",//真ん中の敵
     enemy2: "0x1F419",//下の敵
-    eBeam: "0x1F3E2",//的のビーム
+    eBeam: "0x1F4A7",//的のビーム
     cannon: "0x1F5FC",
     pBeam: "0x26A1",
     wall: "0x1F3E2",
