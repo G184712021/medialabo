@@ -38,7 +38,7 @@ const char = {
     cannon: "0x1F5FC",
     pBeam: "0x26A1",
     wall: "0x1F3E2",
-    explosion: "0x1F4A5"
+    explosion: "0x1F647"//"0x1F4A5"
 };
 
 // クラス
