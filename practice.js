@@ -41,7 +41,7 @@ const words = [
   // ゲームの初期状態
   let score = 0;
   let time = 60;
-  let wordIndex = Math.floor(words.length);
+  let wordIndex = Math.floor(Math.random() * words.length);
   let currentWord = words[wordIndex];
   let isPlaying = false;
   let timerId;
@@ -60,7 +60,7 @@ const words = [
       // 正解の場合、スコアを加算して次の単語を表示する
       score++;
       inputElement.value = "";
-      wordIndex = Math.floor(Math.random() * words.length);
+      //wordIndex = Math.floor(Math.random() * words.length);
       currentWord = words[wordIndex];
       updateDisplay();
     }
