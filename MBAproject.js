@@ -32,7 +32,7 @@ let score;      // 点数
 // 定義（描画イメージ）
 const char = {
     enemy0: "0x1F991",
-    enemy1: "0x1F9D1",//"0x1F980",
+    enemy1: "0x1F393",//"0x1F980",
     enemy2: "0x1F419",
     eBeam: "0x1F4A7",
     cannon: "0x1F5FC",
