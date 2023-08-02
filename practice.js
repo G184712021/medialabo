@@ -1,89 +1,114 @@
-const questions = [
-  "custard-apple",
-  "grapefruit",
-  "pineapple",
-  "cranberry",
-  "peach",
-  "strawberry",
-  "banana",
-  "kiwi",
-  "coconut",
-  "avocado",
-];
-const questionsNum = questions.length; // 問題の総数
-let num = 0;
-let question;
-const result = document.querySelector(".result");
-const word = document.querySelector(".word");
 
-// 問題をランダムで出題させる関数
-function setQuestion() {
-  question = questions.splice(
-    Math.floor(Math.random() * questions.length),
-    1
-  )[0];
-  word.textContent = question;
-  num = 0;
-}
 
-// キーが押された時の処理
-document.addEventListener("keydown", keyDown);
-function keyDown(e) {
-  // エンターキーが押された時
-  if (e.key === "Enter") {
-    if (result.textContent == "[Enter] Game Start") {
-      result.textContent = `${questionsNum}/${questionsNum}`;
-      setQuestion();
-      move.play();
-      return;
-    }
+// 単語のリスト
+const words = [
+    "こんにちは",
+    "banana",
+    "cherry",
+    "date",
+    "elderberry",
+    "fig",
+    "grape",
+    "honeydew",
+    "indigo",
+    "jujube",
+    "kiwi",
+    "lemon",
+    "mango",
+    "nectarine",
+    "orange",
+    "pear",
+    "quince",
+    "raspberry",
+    "strawberry",
+    "tangerine",
+    "ugli fruit",
+    "vanilla",
+    "watermelon",
+    "xigua",
+    "yellow watermelon",
+    "zucchini"
+  ];
+  let i = 0;
+  
+  // HTML要素の取得
+  const wordElement = document.getElementById("word");
+  const inputElement = document.getElementById("input");
+  const scoreElement = document.getElementById("score");
+  const timeElement = document.getElementById("time");
+  const startBtn = document.getElementById("start-btn");
+  const resetBtn = document.getElementById("reset-btn");
+  
+  // ゲームの初期状態
+  let score = 0;
+  let time = 60;
+  //let wordIndex = Math.floor(Math.random() * words.length);
+  let wordIndex =i;
+  let currentWord = words[wordIndex];
+  let isPlaying = false;
+  let timerId;
+  let timerIntervalId;
+  
+  // HTML要素の更新
+  function updateDisplay() {
+    wordElement.textContent = currentWord;
+    scoreElement.textContent = `Score: ${score}`;
+    timeElement.textContent = `Time: ${time}`;
   }
-  // タイプ時の処理
-  if (e.key !== question[num]) {
-    return;
-  }
-  // タイプ文字が合っていた時の処理
-  num++;
-  word.textContent = "".repeat(num) + question.substring(num);
-  // 問題の単語をクリアした時
-  if (num === question.length) {
-    result.textContent = `${questions.length}/${questionsNum}`;
-    move.currentTime = move.currentTime - 2000;
-    if (move.currentTime < 0) {
-      move.currentTime = 0;
-    }
-    // 全ての問題をクリアした時の処理
-    if (questions.length === 0) {
-      result.innerHTML = "Finish!! <span>[Enter]Restart Game</span>";
-      move.pause();
-      gameEnd();
-      return;
-    }
-    setQuestion();
-  }
-}
-
-// 文字を動かすアニメーション
-const move = word.animate(
-  [{ transform: "translateX(100%)" }, { transform: "translateX(0%)" }],
-  { duration: 15000, fill: "forwards" }
-);
-move.pause();
-
-// ゲームオーバー処理
-move.onfinish = () => {
-  result.innerHTML = `${
-    questions.length + 1
-  }/${questionsNum} <span>[Enter]Restart Game</span>`;
-  gameEnd();
-};
-
-// ゲーム終了時の処理
-function gameEnd() {
-  document.removeEventListener("keydown", keyDown);
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-      location.reload();
+  
+  // インプット要素のイベントリスナー
+  inputElement.addEventListener("input", () => {
+    if (inputElement.value.trim() === currentWord) {
+      // 正解の場合、スコアを加算して次の単語を表示する
+      score++;
+      i++;
+      inputElement.value = "";
+      //wordIndex = Math.floor(Math.random() * words.length);
+      wordIndex = i;
+      currentWord = words[wordIndex];
+      updateDisplay();
     }
   });
-}
+  
+  // スタートボタンのクリックイベントリスナー
+  startBtn.addEventListener("click", () => {
+    if (!isPlaying) {
+      isPlaying = true;
+      updateDisplay();
+      timerId = setTimeout(() => {
+        clearInterval(timerIntervalId);
+        inputElement.disabled = true;
+        alert(`Game over! Your score is ${score}.`);
+        isPlaying = false;
+      }, 60 * 1000);
+      timerIntervalId = setInterval(() => {
+        time--;
+        updateDisplay();
+        if (time <= 0) {
+          clearInterval(timerIntervalId);
+          isPlaying = false;
+        }
+      }, 1000);
+    }
+  });
+  
+  // リセットボタンのクリックイベントリスナー
+  resetBtn.addEventListener("click", () => {
+    // ゲームの状態を初期化
+    score = 0;
+    time = 60;
+    wordIndex = Math.floor(Math.random() * words.length);
+    currentWord = words[wordIndex];
+    isPlaying = false;
+    inputElement.disabled = false;
+    inputElement.value = "";
+  
+    // タイマーを停止
+    clearInterval(timerIntervalId);
+    clearTimeout(timerId);
+  
+    // HTML要素を更新
+    updateDisplay();
+  });
+  
+  
