@@ -97,7 +97,9 @@ const words = [
     // ゲームの状態を初期化
     score = 0;
     time = 60;
-    wordIndex = Math.floor(Math.random() * words.length);
+    i = 0;
+    //wordIndex = Math.floor(Math.random() * words.length);
+    wordIndex = i;
     currentWord = words[wordIndex];
     isPlaying = false;
     inputElement.disabled = false;
