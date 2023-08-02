@@ -3,7 +3,7 @@
 // 単語のリスト
 const words = [
     "こんにちは",
-    "banana",
+    "さようなら",
     "cherry",
     "date",
     "elderberry",
@@ -61,10 +61,10 @@ const words = [
     if (inputElement.value.trim() === currentWord) {
       // 正解の場合、スコアを加算して次の単語を表示する
       score++;
-      i++;
+      //i++;
       inputElement.value = "";
-      //wordIndex = Math.floor(Math.random() * words.length);
-      wordIndex = i;
+      wordIndex = Math.floor(Math.random() * words.length);
+      //wordIndex = i;
       currentWord = words[wordIndex];
       updateDisplay();
     }
