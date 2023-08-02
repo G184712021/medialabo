@@ -40,7 +40,7 @@ const resetBtn = document.getElementById("reset-btn");
 
 // ゲームの初期状態
 let score = 0;
-let time = 60;
+let time = 30;
 let wordIndex = Math.floor(Math.random() * words.length);
 let currentWord = words[wordIndex];
 let isPlaying = false;
@@ -76,7 +76,7 @@ startBtn.addEventListener("click", () => {
       inputElement.disabled = true;
       alert(`Game over! Your score is ${score}.`);
       isPlaying = false;
-    }, 60 * 1000);
+    }, 30 * 1000);
     timerIntervalId = setInterval(() => {
       time--;
       updateDisplay();
@@ -92,7 +92,7 @@ startBtn.addEventListener("click", () => {
 resetBtn.addEventListener("click", () => {
   // ゲームの状態を初期化
   score = 0;
-  time = 60;
+  time = 30;
   wordIndex = Math.floor(Math.random() * words.length);
   currentWord = words[wordIndex];
   isPlaying = false;
