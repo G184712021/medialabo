@@ -29,7 +29,8 @@ const words = [
     "yellow watermelon",
     "zucchini"
   ];
-  let i = 1;
+  let i = 0;
+  
   // HTML要素の取得
   const wordElement = document.getElementById("word");
   const inputElement = document.getElementById("input");
