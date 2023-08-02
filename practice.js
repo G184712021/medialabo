@@ -41,7 +41,7 @@ const words = [
   // ゲームの初期状態
   let score = 0;
   let time = 60;
-  let wordIndex = Math.floor(Math.random() * words.length);
+  let wordIndex = Math.floor(words.length);
   let currentWord = words[wordIndex];
   let isPlaying = false;
   let timerId;
