@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>就活インベーター</title>
-    <script src="MBAproject.js" defer></script>
-    <link rel="stylesheet" href="MBAproject.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>敬語クイズ</title>
+  <link rel="stylesheet" href="MBAproject.css">
+</head>
+<body>
+  <section class="quiz_box">
+    <div class="answer_correct"><div class="maru"></div></div>
+    <div class="answer_incorrect"><div class="batu"></div></div>
+    <!--自分書いた-->
+    <input id="button1" type="button" value="ヒント" onclick="alertButton()">
+    <div class="answer_result">
+        <h2 class="answer_result_title">結果発表！</h2>
+        <div class="answer_result_text"></div>
+        <div class ="answer_result_comment"></div>
+    </div>
+    <div class="question_number" id="js-number"></div>
+    <h2 class="question" id="js-question"></h2>
+    <div class="answer_box">
+        <button class="answer" class="js-answer"></button>
+        <button class="answer" class="js-answer"></button>
+        <button class="answer" class="js-answer"></button>
+        <button class="answer" class="js-answer"></button>
+    </div>
+</section>
 
-  <body onload="exe()">
-    <canvas id="ContextArea" width="1425" height="750"></canvas>
-  </body>
 
+  <script src="MBAproject.js"></script>
+</body>
 </html>
 
