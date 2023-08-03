@@ -51,11 +51,11 @@
 }
  
 .quiz_box .answer_incorrect .batu::before {
-  position: absolute;
+  /*position: absolute;*/
   width: 100px;
   height: 10px;
   background-color: blue;
-  content: "a";
+  content: "";
 }
  
 .quiz_box .answer_result {
