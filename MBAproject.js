@@ -153,7 +153,7 @@ function startGame(st) {
                 walls.push(new Emoji(
                     "wall",
                     i * 10 + k * 150 + 65,
-                    j * 10 + 300,
+                    j * 10 + 400,
                     10
                 ));
             }
