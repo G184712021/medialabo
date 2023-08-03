@@ -2,14 +2,14 @@
 const quiz = [
   {
       questionNumber: '質問1',
-      question: '免許センターがある市は？',
+      question: 'するの尊敬語は？',
       answers: [
-          'a.鴻巣',
-          'b.戸田',
-          'c.熊谷',
-          'd.深谷',
+          'a.なさる、される',
+          'b.いたす',
+          'c.させていただく',
+          'd.します',
       ],
-      correct: 'a.鴻巣'
+      correct: 'a.なさる、される'
   },
   {
       questionNumber: '質問2',
