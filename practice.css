@@ -47,7 +47,7 @@
   position: relative;
   width: 100px;
   height: 10px;
-  background-color: red;
+  background-color: blue;
 }
  
 .quiz_box .answer_incorrect .batu::before {
@@ -55,7 +55,7 @@
   width: 100px;
   height: 10px;
   background-color: blue;
-  content: "";
+  content: "a";
 }
  
 .quiz_box .answer_result {
