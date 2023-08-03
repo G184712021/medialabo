@@ -174,6 +174,11 @@ let score = 0;
 const $button = document.querySelectorAll('.answer');
 const buttonLength = $button.length
 
+
+function alertButton(){
+  alert('ボタンが押されました');
+}
+
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
   document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
