@@ -131,3 +131,13 @@ justify-content: space-between;
   cursor: pointer;
 }
 
+input#button1 {
+  border: solid 1px #000000;
+  width: 40%;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
