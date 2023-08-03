@@ -44,6 +44,127 @@ const quiz = [
     ],
     correct: 'c.いらっしゃる、おいでになる、見える、お越しになる'
 },
+{
+  questionNumber: '質問5',
+  question: '知るの尊敬語は？',
+  answers: [
+      'a.存じる、存じ上げる、承知する',
+      'b.お知りになる、ご存じだ',
+      'c.知る',
+      'd.知っています',
+  ],
+  correct: 'b.お知りになる、ご存じだ'
+},
+{
+  questionNumber: '質問6',
+  question: '食べるの尊敬語は？',
+  answers: [
+      'a.召し上がる、おあがりになる',
+      'b.食べます',
+      'c.食べる',
+      'd.いただく、頂戴する',
+  ],
+  correct: 'a.召し上がる、おあがりになる'
+},
+{
+  questionNumber: '質問7',
+  question: 'いるの尊敬語は？',
+  answers: [
+      'a.おる',
+      'b.いらっしゃる、おいでになる',
+      'c.いらない',
+      'd.います',
+  ],
+  correct: 'b.いらっしゃる、おいでになる'
+},
+{
+  questionNumber: '質問8',
+  question: '見るの尊敬語は？',
+  answers: [
+      'a.拝見する',
+      'b.見ます',
+      'c.watch',
+      'd.ご覧になる',
+  ],
+  correct: 'd.ご覧になる'
+},
+{
+  questionNumber: '質問9',
+  question: '聞くの尊敬語は？',
+  answers: [
+      'a.お聞きになる',
+      'b.聞きます',
+      'c.聞く',
+      'd.拝聴する、うかがう',
+  ],
+  correct: 'a.お聞きになる'
+},
+{
+  questionNumber: '質問10',
+  question: '座るの尊敬語は？',
+  answers: [
+      'a.お座りする、座らせていただく',
+      'b.座ります',
+      'c.お掛けになる',
+      'd.座る',
+  ],
+  correct: 'c.お掛けになる'
+},
+{
+  questionNumber: '質問11',
+  question: '会うの尊敬語は？',
+  answers: [
+      'a.会う',
+      'b.会います',
+      'c.お目にかかる',
+      'd.お会いになる、会われる',
+  ],
+  correct: 'd.お会いになる、会われる'
+},
+{
+  questionNumber: '質問12',
+  question: '伝えるの尊敬語は？',
+  answers: [
+      'a.申し伝える',
+      'b.お伝えになる',
+      'c.伝えます',
+      'd.伝える',
+  ],
+  correct: 'b.お伝えになる'
+},
+{
+  questionNumber: '質問13',
+  question: 'わかるの尊敬語は？',
+  answers: [
+      'a.おわかりになる、ご理解いただく',
+      'b.かしこまる、承知する',
+      'c.わかりました',
+      'd.わかる',
+  ],
+  correct: 'a.おわかりになる、ご理解いただく'
+},
+{
+  questionNumber: '質問14',
+  question: '読むの尊敬語は？',
+  answers: [
+      'a.読む',
+      'b.読みます',
+      'c.拝読する',
+      'd.お読みになる',
+  ],
+  correct: 'd.お読みになる'
+},
+{
+  questionNumber: '質問15',
+  question: '与えるの尊敬語は？',
+  answers: [
+      'a.くださる、お与えになる',
+      'b.差し上げる',
+      'c.あげます',
+      'd.与える',
+  ],
+  correct: 'a.くださる、お与えになる'
+},
 ]
 
 let quizCount = 0;
