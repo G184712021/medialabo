@@ -121,8 +121,8 @@ justify-content: space-between;
   width: 400px;
 }
  
-.quiz_box .answer_box .answer {
-  border: solid 1px #bd2d2d;
+.quiz_box .answer_box .answer { /*選択肢のデザイン*/
+  border: solid 1px #000000;
   width: 40%;
   margin-top: 20px;
   margin-right: 10px;
