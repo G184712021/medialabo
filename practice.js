@@ -179,7 +179,8 @@ function alertButton(){
   switch(quizCount){
   case 0:alert('b,cは謙譲語なので違います');
   break;
-  //case 1:
+  case 1:alert('a.申す、申し上げるは謙譲語なので違います');
+  break;
   }
   
 }
