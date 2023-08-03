@@ -176,7 +176,12 @@ const buttonLength = $button.length
 
 
 function alertButton(){
-  alert('ボタンが押されました');
+  switch(quizCount){
+  case 0:alert('b,cは謙譲語なので違います');
+  break;
+  //case 1:
+  }
+  
 }
 
 const setupQuiz = () => {
