@@ -154,7 +154,7 @@ function startGame(st) {
                     "wall",
                     i * 10 + k * 150 + 65,
                     j * 10 + 400,
-                    7
+                    10
                 ));
             }
         }
@@ -171,7 +171,7 @@ function FrameProc() {
 
     // 背景色の設定
     context.fillStyle = "black";
-    context.fillRect(0, 0, 1000, 800);
+    context.fillRect(0, 0, 1000, 900);
 
     // 敵動作フレーム
     cnt--;
