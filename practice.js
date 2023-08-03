@@ -188,7 +188,13 @@ let score = 0;
 const $button = document.querySelectorAll('.answer');
 const buttonLength = $button.length
 
+let b1 = document.querySelector('button#giveup');
+b1.addEventListener('click', changeH1ColorBlue);
 
+function changeH1ColorBlue() {
+  alert('いたす、させていただくは謙譲語なので違います');
+}
+ 
 
 function alertButton(){
   switch(quizCount){
