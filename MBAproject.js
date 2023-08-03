@@ -171,7 +171,7 @@ function FrameProc() {
 
     // 背景色の設定
     context.fillStyle = "black";
-    context.fillRect(0, 0, 1000, 900);
+    context.fillRect(0, 0, 1000, 850);
 
     // 敵動作フレーム
     cnt--;
