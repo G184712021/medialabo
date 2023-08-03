@@ -9,7 +9,8 @@ const quiz = [
           'c.させていただく',
           'd.します',
       ],
-      correct: 'a.なさる、される'
+      correct: 'a.なさる、される',
+      hint: 'zikken'
   },
   {
       questionNumber: '質問2',
@@ -186,6 +187,7 @@ let score = 0;
 
 const $button = document.querySelectorAll('.answer');
 const buttonLength = $button.length
+
 
 
 function alertButton(){
