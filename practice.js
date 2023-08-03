@@ -40,7 +40,7 @@ const quiz = [
         'a.来る',
         'b.来ます',
         'c.いらっしゃる、おいでになる、見える、お越しになる',
-        'd.参る、伺う',
+        'd.うかがう、参る',
     ],
     correct: 'c.いらっしゃる、おいでになる、見える、お越しになる'
 },
@@ -165,6 +165,19 @@ const quiz = [
   ],
   correct: 'a.くださる、お与えになる'
 },
+/*
+{
+  questionNumber: '質問',
+  question: 'の尊敬語は？',
+  answers: [
+      'a.',
+      'b.',
+      'c.',
+      'd.',
+  ],
+  correct: ''
+},
+*/
 ]
 
 let quizCount = 0;
@@ -177,9 +190,35 @@ const buttonLength = $button.length
 
 function alertButton(){
   switch(quizCount){
-  case 0:alert('b,cは謙譲語なので違います');
+  case 0:alert('いたす、させていただくは謙譲語なので違います');//質問1
   break;
-  case 1:alert('a.申す、申し上げるは謙譲語なので違います');
+  case 1:alert('申す、申し上げるは謙譲語なので違います');//質問2
+  break;
+  case 2:alert('うかがう、参るは謙譲語なので違います');//質問3
+  break;
+  case 3:alert('うかがう、参るは謙譲語なので違います');//質問4
+  break;
+  case 4:alert('存じる、存じ上げる、承知するは謙譲語のなので違います');//質問5
+  break;
+  case 5:alert('いただく、頂戴するは謙譲語なので違います');//質問6
+  break;
+  case 6:alert('おるは謙譲語なので違います');//質問7
+  break;
+  case 7:alert('拝見するは謙譲語なので違います');//質問8
+  break;
+  case 8:alert('拝聴する、うかがうは謙譲語なので違います');//質問9
+  break;
+  case 9:alert('お座りする、座らせていただくは謙譲語なので違います');//質問10
+  break;
+  case 10:alert('お目にかかるは謙譲語なので違います');//質問11
+  break;
+  case 11:alert('申し伝えるは謙譲語なので違います');//質問12
+  break;
+  case 12:alert('かしこまる、承知するは謙譲語なので違います');//質問13
+  break;
+  case 13:alert('拝読するは謙譲語なので違います');//質問14
+  break;
+  case 14:alert('差し上げるは謙譲語なので違います');//質問15
   break;
   }
   
