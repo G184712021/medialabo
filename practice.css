@@ -44,14 +44,14 @@
 }
  
 .quiz_box .answer_incorrect .batu {
-  position: relative;
+  /*position: relative;*/
   width: 100px;
   height: 10px;
   background-color: blue;
 }
  
 .quiz_box .answer_incorrect .batu::before {
-  /*position: absolute;*/
+  position: absolute;
   width: 100px;
   height: 10px;
   background-color: blue;
