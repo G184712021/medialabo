@@ -220,6 +220,8 @@ function alertButton(){
   break;
   case 14:alert('差し上げるは謙譲語なので違います');//質問15
   break;
+  /*case :alert('は謙譲語なので違います');//質問
+  break;*/
   }
   
 }
