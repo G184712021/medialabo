@@ -196,6 +196,7 @@ while (clickedCount < buttonLength) {
       const answerIncorrect = document.querySelector('.answer_incorrect');
       const answerResult = document.querySelector('.answer_result');
       const answerResultText = document.querySelector('.answer_result_text')
+      const answerResultTextcomment = document.querySelector('.answer_result_comment')
 
       if (quiz[quizCount].correct === clickedAnswer.textContent) {
           answerCorrect.classList.add("active_answer")
@@ -220,6 +221,13 @@ while (clickedCount < buttonLength) {
       else {
           answerResult.classList.add("active_result")
           answerResultText.textContent = '終了！あなたの正解数は' + score + '/' + quizLength + 'です！'
+          if(score <= 5){
+            answerResultTextcomment.textContent = 'もうちょっと頑張りましょう'
+          } else if(score >= 6 && score <=10){
+            answerResultTextcomment.textContent = 'いい感じです!あと少し!'
+          } else {
+            answerResultTextcomment.textContent = '素晴らしい!合格です!!'
+          }
       }
   });            
   clickedCount++;
