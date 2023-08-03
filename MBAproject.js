@@ -19,7 +19,7 @@ const enemyGunMax = 10;
 let player;             // 自機
 let pBeam;              // ビーム
 let p_LR;               // 横位置移動の操作
-let p_UD;               // 縦位置移動の操作
+//let p_UD;               // 縦位置移動の操作
 const playerGunMax = 30;
 
 // ★壁情報
