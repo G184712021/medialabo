@@ -8,15 +8,23 @@
   <link rel="stylesheet" href="practice.css">
 </head>
 <body>
-  <div id="game-container">
-    <h1>うさぎの餌やり</h1>
-    <p id="word"></p>
-    <input type="text" id="input" autofocus>
-  <button id="start-btn">スタート</button>
-  <button id="reset-btn">リセット</button>
-    <p id="score">Score: 0</p>
-    <p id="time">Time: 30</p>
-  </div>
+  <section class="quiz_box">
+    <div class="answer_correct"><div class="maru"></div></div>
+    <div class="answer_incorrect"><div class="batu"></div></div>
+    <div class="answer_result">
+        <h2 class="answer_result_title">結果発表！</h2>
+        <div class="answer_result_text"></div>
+    </div>
+    <div class="question_number" id="js-number"></div>
+    <h2 class="question" id="js-question"></h2>
+    <div class="answer_box">
+        <button class="answer" class="js-answer"></button>
+        <button class="answer" class="js-answer"></button>
+        <button class="answer" class="js-answer"></button>
+        <button class="answer" class="js-answer"></button>
+    </div>
+</section>
+
 
   <script src="practice.js"></script>
 </body>

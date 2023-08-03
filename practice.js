@@ -1,109 +1,94 @@
 
+const quiz = [
+  {
+      questionNumber: '質問1',
+      question: '免許センターがある市は？',
+      answers: [
+          'a.鴻巣',
+          'b.戸田',
+          'c.熊谷',
+          'd.深谷',
+      ],
+      correct: 'a.鴻巣'
+  },
+  {
+      questionNumber: '質問2',
+      question: '高校受験前に受けるテストは？',
+      answers: [
+          'a.北辰テスト',
+          'b.南辰テスト',
+          'c.東辰テスト',
+          'd.西辰テスト',
+      ],
+      correct: 'a.北辰テスト'
+  },
+  {
+      questionNumber: '質問3',
+      question: 'シラコバトをモチーフにしたマスコットキャラは？',
+      answers: [
+          'a.コバコバ',
+          'b.シラバト',
+          'c.コバトン',
+          'd.シラコン',
+      ],
+      correct: 'c.コバトン'
+  },
+]
 
-// 単語のリスト
-const words = [
-  "apple",
-  "banana",
-  "cherry",
-  "date",
-  "elderberry",
-  "fig",
-  "grape",
-  "honeydew",
-  "indigo",
-  "jujube",
-  "kiwi",
-  "lemon",
-  "mango",
-  "nectarine",
-  "orange",
-  "pear",
-  "quince",
-  "raspberry",
-  "strawberry",
-  "tangerine",
-  "ugli fruit",
-  "vanilla",
-  "watermelon",
-  "xigua",
-  "yellow watermelon",
-  "zucchini"
-];
-
-// HTML要素の取得
-const wordElement = document.getElementById("word");
-const inputElement = document.getElementById("input");
-const scoreElement = document.getElementById("score");
-const timeElement = document.getElementById("time");
-const startBtn = document.getElementById("start-btn");
-const resetBtn = document.getElementById("reset-btn");
-
-// ゲームの初期状態
+let quizCount = 0;
+const quizLength = quiz.length;
 let score = 0;
-let time = 30;
-let wordIndex = Math.floor(Math.random() * words.length);
-let currentWord = words[wordIndex];
-let isPlaying = false;
-let timerId;
-let timerIntervalId;
 
-// HTML要素の更新
-function updateDisplay() {
-  wordElement.textContent = currentWord;
-  scoreElement.textContent = `Score: ${score}`;
-  timeElement.textContent = `Time: ${time}`;
+const $button = document.querySelectorAll('.answer');
+const buttonLength = $button.length
+
+const setupQuiz = () => {
+  document.getElementById('js-question').textContent = quiz[quizCount].question
+  document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
+   
+  let buttonCount = 0;
+
+  while (buttonCount < buttonLength) {
+      $button[buttonCount].textContent = quiz[quizCount].answers[buttonCount]
+      buttonCount++;
+  }
 }
+setupQuiz();
 
-// インプット要素のイベントリスナー
-inputElement.addEventListener("input", () => {
-  if (inputElement.value.trim() === currentWord) {
-    // 正解の場合、スコアを加算して次の単語を表示する
-    score++;
-    inputElement.value = "";
-    wordIndex = Math.floor(Math.random() * words.length);
-    currentWord = words[wordIndex];
-    updateDisplay();
-  }
-});
 
-// スタートボタンのクリックイベントリスナー
-startBtn.addEventListener("click", () => {
-  if (!isPlaying) {
-    isPlaying = true;
-    updateDisplay();
-    timerId = setTimeout(() => {
-      clearInterval(timerIntervalId);
-      inputElement.disabled = true;
-      alert(`Game over! Your score is ${score}.`);
-      isPlaying = false;
-    }, 30 * 1000);
-    timerIntervalId = setInterval(() => {
-      time--;
-      updateDisplay();
-      if (time <= 0) {
-        clearInterval(timerIntervalId);
-        isPlaying = false;
+let clickedCount = 0;
+while (clickedCount < buttonLength) {
+  $button[clickedCount].addEventListener("click", function () {
+      const clickedAnswer = event.currentTarget
+      const answerCorrect = document.querySelector('.answer_correct');
+      const answerIncorrect = document.querySelector('.answer_incorrect');
+      const answerResult = document.querySelector('.answer_result');
+      const answerResultText = document.querySelector('.answer_result_text')
+
+      if (quiz[quizCount].correct === clickedAnswer.textContent) {
+          answerCorrect.classList.add("active_answer")
+          setTimeout (function(){
+              answerCorrect.classList.remove("active_answer")
+          }, 1000);
+          score++;
       }
-    }, 1000);
-  }
-});
+      else {
+          answerIncorrect.classList.add("active_answer")
+          setTimeout (function(){
+              answerIncorrect.classList.remove("active_answer")
+          }, 1000);
+      }
 
-// リセットボタンのクリックイベントリスナー
-resetBtn.addEventListener("click", () => {
-  // ゲームの状態を初期化
-  score = 0;
-  time = 30;
-  wordIndex = Math.floor(Math.random() * words.length);
-  currentWord = words[wordIndex];
-  isPlaying = false;
-  inputElement.disabled = false;
-  inputElement.value = "";
-
-  // タイマーを停止
-  clearInterval(timerIntervalId);
-  clearTimeout(timerId);
-
-  // HTML要素を更新
-  updateDisplay();
-});
-
+      quizCount++;
+      if (quizCount < quizLength) {
+          setTimeout (function(){
+          setupQuiz();
+      }, 1000);
+      }
+      else {
+          answerResult.classList.add("active_result")
+          answerResultText.textContent = '終了！あなたの正解数は' + score + '/' + quizLength + 'です！'
+      }
+  });            
+  clickedCount++;
+}
