@@ -57,7 +57,7 @@ body {
     transition: all 0.5s;
   }
    
-  .quiz_box .answer_incorrect .batu {
+  .quiz_box .answer_incorrect .batu::after{
     position: relative;
     width: 100px;
     height: 10px;
