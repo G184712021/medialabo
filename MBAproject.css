@@ -60,7 +60,7 @@ body {
   .quiz_box .answer_incorrect .batu {
     position: relative;
     width: 100px;
-    height: 10px;
+    height: 100px;
     background-color: blue;
   }
    
@@ -68,7 +68,7 @@ body {
     position: absolute;
     width: 100px;
     height: 10px;
-    background-color: blue;
+    background-color: rgb(34, 162, 64);
     content: "";
   }
    
