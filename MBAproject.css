@@ -2,7 +2,7 @@ body {
   background-color: rgb(213, 234, 109);
 }
 
-p {
+.title {
   text-align: center;
   border:rgb(251, 255, 0);
   color:rgb(0, 0, 0);
