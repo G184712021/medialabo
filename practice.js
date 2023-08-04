@@ -192,6 +192,40 @@ let b1 = document.querySelector('button#giveup');
 b1.addEventListener('click', changeH1ColorBlue);
 
 function changeH1ColorBlue() {
+  switch (quizcount) {
+    case 0:alert('答えはなさる、されるです');//質問1
+    break;
+    case 1:alert('答えはおっしゃる、言われるです');//質問2
+    break;
+    case 2:alert('答えはいらっしゃる、おいでになる');//質問3
+    break;
+    case 3:alert('答えはいらっしゃる、おいでになる、見える、お越しになる');//質問4
+    break;
+    case 4:alert('答えはお知りになる、ご存じだ');//質問5
+    break;
+    case 5:alert('答えは召し上がる、おあがりになる');//質問6
+    break;
+    case 6:alert('答えはいらっしゃる、おいでになる');//質問7
+    break;
+    case 7:alert('答えはご覧になる');//質問8
+    break;
+    case 8:alert('答えはお聞きになる');//質問9
+    break;
+    case 9:alert('答えはお掛けになる');//質問10
+    break;
+    case 10:alert('答えはお会いになる、会われる');//質問11
+    break;
+    case 11:alert('答えはお伝えになる');//質問12
+    break;
+    case 12:alert('答えはおわかりになる、ご理解いただく');//質問13
+    break;
+    case 13:alert('答えはお読みになる');//質問14
+    break;
+    case 14:alert('答えはくださる、お与えになる');//質問15
+    break;
+    /*case :alert('は謙譲語なので違います');//質問
+    break;*/
+  }
   alert('いたす、させていただくは謙譲語なので違います');
 }
  
