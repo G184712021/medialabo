@@ -273,7 +273,7 @@ const kotae = () => {
   //document.getElementById('js-number').textContent = giveup[quizCount].ansa
   document.getElementById('js-number') = giveup[quizCount].ansa
   switch(quizCount){
-    case 0:alert(document.textContent);//質問1
+    case 0:alert('document.textContent');//質問1
     break;
     case 1:alert('申す、申し上げるは謙譲語なので違います');//質問2
     break;
