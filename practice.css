@@ -106,8 +106,8 @@
 .quiz_box .question {
   text-align: center;
   font-weight: bold;
-  margin-top: 105px;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 150px;
 }
  
 .quiz_box .answer_box { /*選択肢の背景*/
