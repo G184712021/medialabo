@@ -9,7 +9,7 @@ body {
 }
 @media(min-width:751px){
   div{
-      border: 3px solid;
+      border: 3px;
   }   
 }
 
