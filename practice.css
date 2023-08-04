@@ -92,13 +92,13 @@
  
 .quiz_box .active_result {
   visibility: visible;
-  opacity: 1;
+  opacity: 10;
 }
  
-.quiz_box .question_number {
+.quiz_box .question_number {/*問題文全体*/
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 1000px;
+  padding-bottom: 10px;
   border-bottom: solid 1px #a0a0a0;
   font-weight: bold;
 }
