@@ -42,7 +42,7 @@ body {
     
   }
    
-  .quiz_box .answer_incorrect {
+  .quiz_box .answer_incorrect { /*正誤半径の背景*/
     position: absolute;
     top: 0px;
     left: 0px;
@@ -63,6 +63,7 @@ body {
     height: 10px;
     background-color: blue;
     /*transform: rotate(135deg);*/
+    transform: translate(-50%,-50%) rotate(-45deg);
   }
    
   .quiz_box .answer_incorrect .batu::before {
