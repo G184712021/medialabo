@@ -4,6 +4,12 @@
   background-color: #00FFFF; /*青色*/
   }
   }
+
+  @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+    #menu-bg {
+    background-color: #00FF00; /*緑色*/
+    }
+    }
   
 body {
   background-color: rgb(213, 234, 109);
