@@ -91,7 +91,7 @@
 }
  
 .quiz_box .active_result {
-  visibility: visible;
+  /*visibility: visible;*/
   opacity: 1;
 }
  
