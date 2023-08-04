@@ -131,7 +131,7 @@ justify-content: space-between;
   cursor: pointer;
 }
 
-input#button1 {
+.input#button1 {
   border: solid 1px #be5252;
   width: 20%;
   margin-top: 20px;
