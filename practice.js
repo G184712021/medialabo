@@ -232,7 +232,7 @@ function alertButton(){
   
 }
 
-function giveup(event) {
+/*function giveup(event) {
   switch (quizcount) {
     case 0:alert('答えはなさる、されるです');//質問1
     break;
@@ -265,9 +265,9 @@ function giveup(event) {
     case 14:alert('答えはくださる、お与えになる');//質問15
     break;
     /*case :alert('は謙譲語なので違います');//質問
-    break;*/
+    break;
   }
-}
+}*/
 
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
