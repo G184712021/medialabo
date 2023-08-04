@@ -141,11 +141,11 @@ input#button1 {
   cursor: pointer;
 }
 
-/*@media screen and (max-width:390px) {
+@media screen and (max-width:390px) {
 
   .section {
     width: 100%;
 		margin: 0px 0 10px 0;
   }
 
-}*/
+}
