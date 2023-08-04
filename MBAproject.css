@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(33, 235, 33);
+}
+
 .quiz_box {
     position: relative;
     width: 800px;
@@ -131,4 +135,12 @@
     cursor: pointer;
   }
   
-  
+  .quiz_box .hint {/*ヒント*/
+    border: solid 1px #be5252;
+    width: 40%;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
