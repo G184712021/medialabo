@@ -269,7 +269,9 @@ function alertButton(){
   }
   
 }
-
+const kotae = () => {
+  document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
+}
 
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
@@ -283,6 +285,7 @@ const setupQuiz = () => {
   }
 }
 setupQuiz();
+kotae();
 
 
 let clickedCount = 0;
