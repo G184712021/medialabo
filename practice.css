@@ -117,7 +117,7 @@ justify-content: space-between;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   width: 400px;
 }
  
@@ -131,7 +131,7 @@ justify-content: space-between;
   cursor: pointer;
 }
 
-.quiz_box .hint {
+.quiz_box .hint {/*ヒント*/
   border: solid 1px #be5252;
   width: 40%;
   margin-top: 20px;
