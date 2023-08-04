@@ -71,11 +71,11 @@
   transition: all 0.5s;
 }
  
-.quiz_box .answer_result .answer_result_title {
+.quiz_box .answer_result .answer_result_title { /*質問と答えの境界線*/
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: solid 1px #a0a0a0;
+  border-bottom: solid 1px #622828;
   font-size: 24px;
 }
  
