@@ -274,7 +274,7 @@ function alertButton(){
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
   document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
-  document.getElementById('js-giveup').textContent = quiz[quizCount].ansa
+  //document.getElementById('js-giveup').textContent = quiz[quizCount].ansa
   let buttonCount = 0;
 
   while (buttonCount < buttonLength) {
