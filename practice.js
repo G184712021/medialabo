@@ -223,7 +223,7 @@ function alertButton(){
   
 }
 
-function alertButton(){
+document.getElementById("button2").onclick = function() {
   switch(quizCount){
   case 0:alert('けんしょう');//質問1
   break;
