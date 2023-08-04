@@ -92,7 +92,7 @@
  
 .quiz_box .active_result {
   visibility: visible;
-  opacity: 10;
+  opacity: 1;
 }
  
 .quiz_box .question_number {/*問題文全体*/
