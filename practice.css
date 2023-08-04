@@ -87,11 +87,11 @@
  
 .quiz_box .active_answer {
   visibility: visible;
-  opacity: 0.8;
+  opacity: 10.0;
 }
  
 .quiz_box .active_result {
-  /*visibility: visible;*/
+  visibility: visible;
   opacity: 1;
 }
  
