@@ -81,13 +81,13 @@
  
 .quiz_box .answer_result .answer_result_text {
   padding: 50px;
-  font-size: 18px;
+  font-size: 180px;
   font-weight: bold;
 }
  
 .quiz_box .active_answer {
   visibility: visible;
-  opacity: 10.0;
+  opacity: 0.8;
 }
  
 .quiz_box .active_result {
