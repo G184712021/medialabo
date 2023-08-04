@@ -63,7 +63,8 @@ body {
     height: 10px;
     background-color: blue;
     /*transform: rotate(135deg);*/
-    transform: translate(-50%,-50%) rotate(-45deg);
+    transform: rotate(45deg);
+    /*transform: translate(-50%,-50%) rotate(-45deg);*/
   }
    
   .quiz_box .answer_incorrect .batu::before {
@@ -72,18 +73,18 @@ body {
     height: 10px;
     background-color: rgb(34, 162, 64);
     /*transform: rotate(180deg);*/
-    transform: translate(-50%,-50%) rotate(45deg);
+    transform: rotate(90deg);
     content: "";
   }
 
-  .quiz_box .answer_incorrect .batu::before {
+  /*.quiz_box .answer_incorrect .batu::before {
     transform: translate(-50%,-50%) rotate(45deg);
   }
 
   .quiz_box .answer_incorrect .batu::after {
     transform: translate(-50%,-50%) rotate(-45deg);
   }
-
+*/
 
    
   .quiz_box .answer_result {
