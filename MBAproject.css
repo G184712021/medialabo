@@ -1,11 +1,11 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 255, 242);
 }
 
 p {
   text-align: center;
-  border: dashed rgb(251, 255, 0);
-  color:yellow;
+  border:rgb(251, 255, 0);
+  color:rgb(0, 0, 0);
   background-color: black;
 }
 
