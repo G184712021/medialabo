@@ -74,7 +74,7 @@
 .quiz_box .answer_result .answer_result_title {
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
   border-bottom: solid 1px #a0a0a0;
   font-size: 24px;
 }
