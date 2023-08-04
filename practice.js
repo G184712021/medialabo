@@ -225,7 +225,7 @@ function alertButton(){
 
 function alertButton(){
   switch(quizCount){
-  case 0:alert('いたす、させていただくは謙譲語なので違います');//質問1
+  case 0:alert('けんしょう');//質問1
   break;
   case 1:alert('申す、申し上げるは謙譲語なので違います');//質問2
   break;
