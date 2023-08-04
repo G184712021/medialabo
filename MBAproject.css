@@ -2,6 +2,14 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+p {
+  text-align: center;
+  border: dashed rgb(251, 255, 0);
+  color:yellow;
+  background-color: black;
+}
+
+
 .quiz_box {
     position: relative;
     width: 800px;
