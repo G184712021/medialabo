@@ -178,6 +178,53 @@ const quiz = [
 },
 */
 ]
+const giveup = [
+{
+ansa: '答えはなさる、されるです。'
+},
+{
+  ansa: '答えはおっしゃる、言われるです。'
+},
+{
+  ansa: '答えはいらっしゃる、おいでになるです。'
+},
+{
+  ansa: '答えはいらっしゃる、おいでになる、見える、お越しになるです。'
+},
+{
+  ansa: '答えはお知りになる、ご存じだ です。'
+},
+{
+  ansa: '答えは召し上がる、おあがりになるです。'
+},
+{
+  ansa: '答えはです。いらっしゃる、おいでになるです。'
+},
+{
+  ansa: '答えはご覧になるです。'
+},
+{
+  ansa: '答えはお聞きになるです。'
+},
+{
+  ansa: '答えはお掛けになるです。'
+},
+{
+  ansa: '答えはお会いになる、会われるです。'
+},
+{
+  ansa: '答えはお伝えになるです。'
+},
+{
+  ansa: '答えはおわかりになる、ご理解いただくです。'
+},
+{
+  ansa: '答えはお読みになるです。'
+},
+{
+  ansa: '答えはくださる、お与えになるです。'
+},
+]
 
 let quizCount = 0;
 const quizLength = quiz.length;
@@ -227,7 +274,7 @@ function alertButton(){
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
   document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
-   
+  document.getElementById('js-giveup').textContent = quiz[quizCount].ansa
   let buttonCount = 0;
 
   while (buttonCount < buttonLength) {
