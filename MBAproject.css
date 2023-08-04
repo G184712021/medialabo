@@ -71,7 +71,7 @@ body {
     position: absolute;
     width: 100px;
     height: 10px;
-    background-color: rgb(34, 162, 64);
+    background-color: blue;
     /*transform: rotate(180deg);*/
     transform: rotate(90deg);
     content: "";
