@@ -51,10 +51,10 @@
   background-color: blue;
 }
  
-.quiz_box .answer_incorrect .batu::before {
+.quiz_box .answer_incorrect .batu::before { /*罰マーク*/
   position: absolute;
-  width: 100px;
-  height: 50px;
+  width: 1000px;
+  height: 10px;
   background-color: blue;
   content: "";
 }
