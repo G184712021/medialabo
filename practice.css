@@ -144,7 +144,7 @@ input#button1 {
 @media screen and (max-width:390px) {
 
   section {
-    width: 50%;
+    width: 1000%;
 		margin: 0px 0 10px 0;
   }
 
