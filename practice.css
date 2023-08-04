@@ -54,16 +54,16 @@
 .quiz_box .answer_incorrect .batu::before {
   position: absolute;
   width: 100px;
-  height: 10px;
+  height: 100px;
   background-color: blue;
   content: "";
 }
  
-.quiz_box .answer_result {
+.quiz_box .answer_result {/*答えの背景*/
   position: absolute;
   top: 0px;
   left: 0px;
-  background-color: #c69931;
+  background-color: #fdde98;
   width: 100%;
   height: 100%;
   visibility: hidden;
