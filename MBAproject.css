@@ -69,7 +69,7 @@ body {
     width: 100px;
     height: 10px;
     background-color: rgb(34, 162, 64);
-    transform: rotate(0.2turn);
+    transform: rotate(0.1turn);
     content: "";
   }
    
