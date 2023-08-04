@@ -75,11 +75,11 @@ body {
   }
 
   .quiz_box .answer_incorrect .batu::before {
-    transform: rotate(135deg);
+    transform: translate(-50%,-50%) rotate(45deg);
   }
 
   .quiz_box .answer_incorrect .batu::after {
-    transform: rotate(45deg);
+    transform: translate(-50%,-50%) rotate(-45deg);
   }
 
 
