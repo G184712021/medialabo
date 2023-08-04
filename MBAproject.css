@@ -62,7 +62,7 @@ body {
     width: 100px;
     height: 10px;
     background-color: blue;
-    transform: rotate(90deg);
+    transform: rotate(135deg);
   }
    
   .quiz_box .answer_incorrect .batu::before {
