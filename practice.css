@@ -79,9 +79,9 @@
   font-size: 24px;
 }
  
-.quiz_box .answer_result .answer_result_text {
+.quiz_box .answer_result .answer_result_text {/*結果発表の文字*/
   padding: 50px;
-  font-size: 180px;
+  font-size: 18px;
   font-weight: bold;
 }
  
