@@ -270,7 +270,8 @@ function alertButton(){
   
 }
 const kotae = () => {
-  document.getElementById('js-number').textContent = giveup[quizCount].ansa
+  //document.getElementById('js-number').textContent = giveup[quizCount].ansa
+  document.getElementById('js-number') = giveup[quizCount].ansa
 }
 
 const setupQuiz = () => {
