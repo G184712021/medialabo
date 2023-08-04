@@ -1,4 +1,3 @@
-
 const quiz = [
   {
       questionNumber: '質問1',
@@ -9,8 +8,7 @@ const quiz = [
           'c.させていただく',
           'd.します',
       ],
-      correct: 'a.なさる、される',
-      hint: 'zikken'
+      correct: 'a.なさる、される'
   },
   {
       questionNumber: '質問2',
@@ -188,11 +186,6 @@ let score = 0;
 const $button = document.querySelectorAll('.answer');
 const buttonLength = $button.length
 
-let b1 = document.querySelector('button#giveup');
-b1.addEventListener('click', changeH1ColorBlue);
-
-
- 
 
 function alertButton(){
   switch(quizCount){
@@ -226,48 +219,9 @@ function alertButton(){
   break;
   case 14:alert('差し上げるは謙譲語なので違います');//質問15
   break;
-  /*case :alert('は謙譲語なので違います');//質問
-  break;*/
   }
   
 }
-
-/*function giveup(event) {
-  switch (quizcount) {
-    case 0:alert('答えはなさる、されるです');//質問1
-    break;
-    case 1:alert('答えはおっしゃる、言われるです');//質問2
-    break;
-    case 2:alert('答えはいらっしゃる、おいでになる');//質問3
-    break;
-    case 3:alert('答えはいらっしゃる、おいでになる、見える、お越しになる');//質問4
-    break;
-    case 4:alert('答えはお知りになる、ご存じだ');//質問5
-    break;
-    case 5:alert('答えは召し上がる、おあがりになる');//質問6
-    break;
-    case 6:alert('答えはいらっしゃる、おいでになる');//質問7
-    break;
-    case 7:alert('答えはご覧になる');//質問8
-    break;
-    case 8:alert('答えはお聞きになる');//質問9
-    break;
-    case 9:alert('答えはお掛けになる');//質問10
-    break;
-    case 10:alert('答えはお会いになる、会われる');//質問11
-    break;
-    case 11:alert('答えはお伝えになる');//質問12
-    break;
-    case 12:alert('答えはおわかりになる、ご理解いただく');//質問13
-    break;
-    case 13:alert('答えはお読みになる');//質問14
-    break;
-    case 14:alert('答えはくださる、お与えになる');//質問15
-    break;
-    /*case :alert('は謙譲語なので違います');//質問
-    break;
-  }
-}*/
 
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
