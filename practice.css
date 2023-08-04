@@ -54,7 +54,7 @@
 .quiz_box .answer_incorrect .batu::before {
   position: absolute;
   width: 100px;
-  height: 15px;
+  height: 50px;
   background-color: blue;
   content: "";
 }
