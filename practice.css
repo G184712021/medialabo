@@ -46,8 +46,8 @@
  
 .quiz_box .answer_incorrect .batu {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 1000px;
+  height: 10px;
   background-color: blue;
 }
  
