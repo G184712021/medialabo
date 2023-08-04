@@ -226,7 +226,6 @@ function changeH1ColorBlue() {
     /*case :alert('は謙譲語なので違います');//質問
     break;*/
   }
-  alert('いたす、させていただくは謙譲語なので違います');
 }
  
 
