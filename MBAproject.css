@@ -1,3 +1,10 @@
+
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+  #menu-bg {
+  background-color: #00FFFF; /*青色*/
+  }
+  }
+  
 body {
   background-color: rgb(213, 234, 109);
 }
