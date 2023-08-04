@@ -47,13 +47,13 @@
 .quiz_box .answer_incorrect .batu {
   position: relative;
   width: 100px;
-  height: 10px;
+  height: 100px;
   background-color: blue;
 }
  
 .quiz_box .answer_incorrect .batu::before { /*罰マーク*/
   position: absolute;
-  width: 1000px;
+  width: 100px;
   height: 10px;
   background-color: blue;
   content: "";
