@@ -8,7 +8,7 @@ body {
   }   
 }
 @media(min-width:751px){
-  div{
+  .quiz_box{
       /*border: 3px;*/
       border: 100px;
   }   
