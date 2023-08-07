@@ -149,14 +149,14 @@ body {
   }
    
   .quiz_box .question {
-    /*text-align: center;*/
+    text-align: center;
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
   }
    
   .quiz_box .answer_box {
-  display: flex;
+  /*display: flex;*/
   flex-wrap: wrap;
   justify-content: space-between;
     margin: 0 auto;
