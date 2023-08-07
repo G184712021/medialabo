@@ -231,7 +231,6 @@ body {
         width: 400px;
 
         flex-flow: column;
-        border:2px #ccc solid;
         height:300px;
         /*margin:0 0 1em;*/
         margin: 0 auto;
