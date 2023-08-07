@@ -170,6 +170,19 @@ body {
   }*/
 
   @media(max-width:750px){
+    .title {
+      text-align: center;
+      border:rgb(251, 255, 0);
+      color:rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      font-size: 30px;
+    }
+    
+    .setumei {
+      text-align: center;
+      font-size: 30px;
+    }
+
     body {
         /*border: 1px solid #CCC;*/
         position: relative;
@@ -182,7 +195,7 @@ body {
         display:flex;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding-bottom: 40px;
+        padding-bottom: 80px;
         width: 400px;
 
         flex-flow: column;
@@ -192,6 +205,16 @@ body {
       .quiz_box .answer_box .answer {
         padding:1em;
         margin:0.5em auto;
-        width:50%;
+        width:100%;
+        font-size: 20px;
+      }
+      .quiz_box .hint {/*ヒント*/
+        border: solid 1px #be5252;
+        width: 40%;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        cursor: pointer;
       }
   }
