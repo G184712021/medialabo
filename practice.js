@@ -3,166 +3,166 @@ const quiz = [
       questionNumber: '質問1',
       question: 'するの尊敬語は？',
       answers: [
-          'a.なさる、される',
-          'b.いたす',
-          'c.させていただく',
-          'd.します',
+          'A.なさる、される',
+          'B.いたす',
+          'C.させていただく',
+          'D.します',
       ],
-      correct: 'a.なさる、される'
+      correct: 'A.なさる、される'
   },
   {
       questionNumber: '質問2',
       question: '言うの尊敬語は？',
       answers: [
-          'a.申す、申し上げる',
-          'b.言います',
-          'c.おっしゃる、言われる',
-          'd.言う',
+          'A.申す、申し上げる',
+          'B.言います',
+          'C.おっしゃる　　　　言われる',
+          'D.言う',
       ],
-      correct: 'c.おっしゃる、言われる'
+      correct: 'C.おっしゃる　　　　言われる'
   },
   {
       questionNumber: '質問3',
       question: '行くの尊敬語は？',
       answers: [
-          'a.うかがう、参る',
-          'b.行きます',
-          'c.行く',
-          'd.いらっしゃる、おいでになる',
+          'A.うかがう、参る',
+          'B.行きます',
+          'C.行く',
+          'D.いらっしゃる　　　　おいでになる',
       ],
-      correct: 'd.いらっしゃる、おいでになる'
+      correct: 'D.いらっしゃる　　　　おいでになる'
   },
   {
     questionNumber: '質問4',
     question: '来るの尊敬語は？',
     answers: [
-        'a.来る',
-        'b.来ます',
-        'c.いらっしゃる、おいでになる、見える、お越しになる',
-        'd.うかがう、参る',
+        'A.来る',
+        'B.来ます',
+        'C.いらっしゃる　　　　おいでになる　　　　見える　　　　　　　　  お越しになる',
+        'D.うかがう、参る',
     ],
-    correct: 'c.いらっしゃる、おいでになる、見える、お越しになる'
+    correct: 'C.いらっしゃる　　　　おいでになる　　　　見える　　　　　　　　  お越しになる'
 },
 {
   questionNumber: '質問5',
   question: '知るの尊敬語は？',
   answers: [
-      'a.存じる、存じ上げる、承知する',
-      'b.お知りになる、ご存じだ',
-      'c.知る',
-      'd.知っています',
+      'A.存じる　　　　　　存じ上げる　　　　　　承知する',
+      'B.お知りになる　　　　ご存じだ',
+      'C.知る',
+      'D.知っています',
   ],
-  correct: 'b.お知りになる、ご存じだ'
+  correct: 'B.お知りになる　　　　ご存じだ'
 },
 {
   questionNumber: '質問6',
   question: '食べるの尊敬語は？',
   answers: [
-      'a.召し上がる、おあがりになる',
-      'b.食べます',
-      'c.食べる',
-      'd.いただく、頂戴する',
+      'A.召し上がる　　　　おあがりになる',
+      'B.食べます',
+      'C.食べる',
+      'D.いただく、頂戴する',
   ],
-  correct: 'a.召し上がる、おあがりになる'
+  correct: 'A.召し上がる　　　　おあがりになる'
 },
 {
   questionNumber: '質問7',
   question: 'いるの尊敬語は？',
   answers: [
-      'a.おる',
-      'b.いらっしゃる、おいでになる',
-      'c.いらない',
-      'd.います',
+      'A.おる',
+      'B.いらっしゃる　　　おいでになる',
+      'C.いらない',
+      'D.います',
   ],
-  correct: 'b.いらっしゃる、おいでになる'
+  correct: 'B.いらっしゃる　　　おいでになる'
 },
 {
   questionNumber: '質問8',
   question: '見るの尊敬語は？',
   answers: [
-      'a.拝見する',
-      'b.見ます',
-      'c.watch',
-      'd.ご覧になる',
+      'A.拝見する',
+      'B.見ます',
+      'C.watch',
+      'D.ご覧になる',
   ],
-  correct: 'd.ご覧になる'
+  correct: 'D.ご覧になる'
 },
 {
   questionNumber: '質問9',
   question: '聞くの尊敬語は？',
   answers: [
-      'a.お聞きになる',
-      'b.聞きます',
-      'c.聞く',
-      'd.拝聴する、うかがう',
+      'A.お聞きになる',
+      'B.聞きます',
+      'C.聞く',
+      'D.拝聴する、うかがう',
   ],
-  correct: 'a.お聞きになる'
+  correct: 'A.お聞きになる'
 },
 {
   questionNumber: '質問10',
   question: '座るの尊敬語は？',
   answers: [
-      'a.お座りする、座らせていただく',
-      'b.座ります',
-      'c.お掛けになる',
-      'd.座る',
+      'A.お座りする　　　　座らせていただく',
+      'B.座ります',
+      'C.お掛けになる',
+      'D.座る',
   ],
-  correct: 'c.お掛けになる'
+  correct: 'C.お掛けになる'
 },
 {
   questionNumber: '質問11',
   question: '会うの尊敬語は？',
   answers: [
-      'a.会う',
-      'b.会います',
-      'c.お目にかかる',
-      'd.お会いになる、会われる',
+      'A.会う',
+      'B.会います',
+      'C.お目にかかる',
+      'D.お会いになる　　　会われる',
   ],
-  correct: 'd.お会いになる、会われる'
+  correct: 'D.お会いになる　　　会われる'
 },
 {
   questionNumber: '質問12',
   question: '伝えるの尊敬語は？',
   answers: [
-      'a.申し伝える',
-      'b.お伝えになる',
-      'c.伝えます',
-      'd.伝える',
+      'A.申し伝える',
+      'B.お伝えになる',
+      'C.伝えます',
+      'D.伝える',
   ],
-  correct: 'b.お伝えになる'
+  correct: 'B.お伝えになる'
 },
 {
   questionNumber: '質問13',
   question: 'わかるの尊敬語は？',
   answers: [
-      'a.おわかりになる、ご理解いただく',
-      'b.かしこまる、承知する',
-      'c.わかりました',
-      'd.わかる',
+      'A.おわかりになる　　ご理解いただく',
+      'B.かしこまる　　　　承知する',
+      'C.わかりました',
+      'D.わかる',
   ],
-  correct: 'a.おわかりになる、ご理解いただく'
+  correct: 'A.おわかりになる　　ご理解いただく'
 },
 {
   questionNumber: '質問14',
   question: '読むの尊敬語は？',
   answers: [
-      'a.読む',
-      'b.読みます',
-      'c.拝読する',
-      'd.お読みになる',
+      'A.読む',
+      'B.読みます',
+      'C.拝読する',
+      'D.お読みになる',
   ],
-  correct: 'd.お読みになる'
+  correct: 'D.お読みになる'
 },
 {
   questionNumber: '質問15',
   question: '与えるの尊敬語は？',
   answers: [
-      'a.くださる、お与えになる',
-      'b.差し上げる',
-      'c.あげます',
-      'd.与える',
+      'A.くださる　　　　　お与えになる',
+      'B.差し上げる',
+      'C.あげます',
+      'D.与える',
   ],
-  correct: 'a.くださる、お与えになる'
+  correct: 'A.くださる　　　　　お与えになる'
 },
 /*
 {
@@ -178,7 +178,6 @@ const quiz = [
 },
 */
 ]
-
 
 let quizCount = 0;
 const quizLength = quiz.length;
@@ -227,7 +226,7 @@ function alertButton(){
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
   document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
- 
+   
   let buttonCount = 0;
 
   while (buttonCount < buttonLength) {
