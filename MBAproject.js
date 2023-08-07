@@ -52,7 +52,7 @@ const quiz = [
         'c.知る',
         'd.知っています',
     ],
-    correct: 'b.お知りになる、ご存じだ'
+    correct: 'b.お知りになる、　　　ご存じだ'
   },
   {
     questionNumber: '質問6',
