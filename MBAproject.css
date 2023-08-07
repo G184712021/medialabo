@@ -149,7 +149,7 @@ body {
   }
    
   .quiz_box .question {
-    text-align: center;
+    /*text-align: center;*/
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
