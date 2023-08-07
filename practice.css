@@ -1,41 +1,6 @@
 body {
   background-color: rgb(213, 234, 109);
 }
-/*
-@media(max-width:750px){
-  body {
-      //border: 1px solid #CCC;
-      position: relative;
-      width: 800px;
-      margin: 0 auto;
-      margin-top: 40px;
-  }   
-
-  .quiz_box .answer_box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-      margin: 0 auto;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      padding-bottom: 40px;
-      width: 400px;
-    }
-}
-/*@media(min-width:751px){
-  .quiz_box{
-    border: 3px;
-    position: relative;
-    width: 100px;
-    background-color: #fdde98;
-    margin: 0 auto;
-    margin-top: 40px;
-    border: solid; 
-  }   
-}*/
-
-
-
 
 .title {
   text-align: center;
