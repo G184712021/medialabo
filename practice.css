@@ -192,6 +192,6 @@ body {
       .quiz_box .answer_box .answer {
         padding:1em;
         margin:0.5em auto;
-        width:50%;
+        width:100%;
       }
   }
