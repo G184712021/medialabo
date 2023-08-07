@@ -23,6 +23,9 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+.title {
+  text-align: center;
+}
 
 .quiz_box {
     position: relative;
