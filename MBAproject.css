@@ -2,30 +2,6 @@ body {
   background-color: rgb(213, 234, 109);
 }
 
-@media(max-width:750px){
-  body {
-      /*border: 1px solid #CCC;*/
-      position: relative;
-      width: 800px;
-      margin: 0 auto;
-      margin-top: 40px;
-  }   
-}
-@media(min-width:751px){
-  .quiz_box{
-      /*border: 3px;*/
-      position: relative;
-    width: 100px;
-    background-color: #fdde98;
-    margin: 0 auto;
-    margin-top: 40px;
-    border: solid; 
-  }   
-}
-
-
-
-
 .title {
   text-align: center;
   border:rgb(251, 255, 0);
@@ -192,3 +168,30 @@ body {
     margin-top: 30px;
     display: inline-block;
   }*/
+
+  @media(max-width:750px){
+    body {
+        /*border: 1px solid #CCC;*/
+        position: relative;
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }   
+  
+    .quiz_box .answer_box {
+        display:flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 40px;
+        width: 400px;
+
+        flex-flow: column;
+        height:300px;
+        margin: 0 auto;
+      }
+      .quiz_box .answer_box .answer {
+        padding:1em;
+        margin:0.5em auto;
+        width:50%;
+      }
+  }
