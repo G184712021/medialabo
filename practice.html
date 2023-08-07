@@ -2,19 +2,28 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>検証用</title>
+  <title>敬語クイズ</title>
   <link rel="stylesheet" href="practice.css">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <meta name="viewport" content="width=device-width" />
 </head>
 <body>
+  <p class = title>敬語直し</p>
+  <p class = setumei>単語を表示するのでその単語の尊敬語のボタンをタッチしてください
+    <br>
+    <br>
+  わからなければヒントボタンでヒントが見れます。</p>
   <section class="quiz_box">
     <div class="answer_correct"><div class="maru"></div></div>
     <div class="answer_incorrect"><div class="batu"></div></div>
     <!--自分書いた-->
-    <input class ="hint" id="button1" type="button" value="ヒント" onclick="alertButton()">
+    <input id="button1" type="button" value="ヒント" onclick="alertButton()">
     <div class="answer_result">
         <h2 class="answer_result_title">結果発表！</h2>
         <div class="answer_result_text"></div>
         <div class ="answer_result_comment"></div>
+        <!--<a href="/" class="goback-button">最初からやり直す</a>-->
+        <a href='MBAproject.html'>同じ問題を最初から</a>
     </div>
     <div class="question_number" id="js-number"></div>
     <h2 class="question" id="js-question"></h2>
