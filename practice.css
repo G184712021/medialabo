@@ -1,10 +1,10 @@
 body {
   background-color: rgb(213, 234, 109);
 }
-
+/*
 @media(max-width:750px){
   body {
-      /*border: 1px solid #CCC;*/
+      //border: 1px solid #CCC;
       position: relative;
       width: 800px;
       margin: 0 auto;
@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
       margin: 0 auto;
       margin-top: 10px;
-      margin-bottom: 100px;
+      margin-bottom: 10px;
       padding-bottom: 40px;
       width: 400px;
     }
@@ -203,3 +203,24 @@ body {
     margin-top: 30px;
     display: inline-block;
   }*/
+
+  @media(max-width:750px){
+    body {
+        /*border: 1px solid #CCC;*/
+        position: relative;
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }   
+  
+    .quiz_box .answer_box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 40px;
+        width: 400px;
+      }
+  }
