@@ -182,7 +182,7 @@ body {
         display:flex;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding-bottom: 40px;
+        padding-bottom: 80px;
         width: 400px;
 
         flex-flow: column;
