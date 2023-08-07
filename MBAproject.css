@@ -3,7 +3,7 @@ body {
 }
 
 @media(max-width:750px){
-  div{
+  body {
       /*border: 1px solid #CCC;*/
       position: relative;
       width: 800px;
