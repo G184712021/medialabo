@@ -63,7 +63,7 @@ const quiz = [
         'c.食べる',
         'd.いただく、頂戴する',
     ],
-    correct: 'a.召し上がる、おあがりになる'
+    correct: 'a.召し上がる、　　　おあがりになる'
   },
   {
     questionNumber: '質問7',
