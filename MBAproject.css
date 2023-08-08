@@ -281,8 +281,8 @@ em {
         height:700px;
         flex-flow: column;
         margin: 0 auto;*/
-        width: 400px;
-    padding: 20px;
+        width: 500px;
+    padding: 0px;
     box-sizing: border-box;
     cursor: pointer;
         
