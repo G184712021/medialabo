@@ -198,8 +198,7 @@ body {
   @media(max-width:750px){
     .title {
       text-align: center;
-      /*border:rgb(251, 255, 0);*/
-      color:rgb(0, 0, 0);
+      color:rgb(190, 77, 77);
       font-size: 30px;
       text-align: center;
       font-weight: bold;
