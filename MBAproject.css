@@ -273,10 +273,9 @@ em {
   
     .quiz_box .answer_box {
         display:flex;
-        width: 500px;
+        /*width: 500px;*/
+        width: 20%;
         margin-top: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
         margin-bottom: 10px;
         padding-bottom: 80px;
         
