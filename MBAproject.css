@@ -179,8 +179,8 @@ body {
   }
   
   .quiz_box .hint {/*ヒント*/
-    border: solid 1px #be5252;
-    width: 40%;
+    border: solid 1px #000000;
+    width: 20%;
     margin-top: 20px;
     margin-right: 10px;
     margin-left: 10px;
@@ -264,7 +264,7 @@ body {
         margin-top: 20px;
         margin-right: 10px;
         margin-left: 10px;
-        padding: 100px;
+        padding: 10px;
         cursor: pointer;
         
       }
