@@ -281,9 +281,7 @@ em {
         height:700px;
         flex-flow: column;
         margin: 0 auto;*/
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding-bottom: 80px;
+        flex-flow: column;
         width: 700px;
         padding: 0px;
         box-sizing: border-box;
