@@ -273,10 +273,13 @@ em {
   
     .quiz_box .answer_box {
         display:flex;
-        margin-top: 20px;
+        width: 500px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
         margin-bottom: 10px;
         padding-bottom: 80px;
-        width: 500px;
+        
         height:700px;
         flex-flow: column;
         margin: 0 auto;
