@@ -277,10 +277,8 @@ em {
         margin-bottom: 10px;
         padding-bottom: 80px;
         width: 500px;
-        height: 1000px;
-
+        height:700px;
         flex-flow: column;
-        height:300px;
         margin: 0 auto;
       }
       .quiz_box .answer_box .answer {
