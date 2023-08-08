@@ -51,7 +51,7 @@ em {
     height: 500px;
     background-color: #fdde98;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
     border: solid; 
   }
    
@@ -277,7 +277,7 @@ em {
         padding:1em;
         margin:0.5em auto;
         width:100%;
-        font-size: 30px;
+        font-size: 20px;
       }
       .quiz_box .hint {/*ヒント*/
         border: solid 1px #000000;
