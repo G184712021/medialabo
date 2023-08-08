@@ -51,7 +51,7 @@ em {
     height: 500px;
     background-color: #fdde98;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
     border: solid; 
   }
    
@@ -260,6 +260,16 @@ em {
         margin: 0 auto;
         margin-top: 40px;
     }   
+
+    .quiz_box {
+      position: relative;
+      width: 1000px;
+      height: 500px;
+      background-color: #fdde98;
+      margin: 0 auto;
+      margin-top: 40px;
+      border: solid; 
+    }
   
     .quiz_box .answer_box {
         display:flex;
@@ -289,4 +299,6 @@ em {
         padding: 10px;
         cursor: pointer;
       }
+
+      
   }
