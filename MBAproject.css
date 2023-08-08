@@ -220,6 +220,8 @@ em {
 
   @media(max-width:750px){
     .title {
+      width: 1000px;
+      height: 500px;
       text-align: center;
       font-weight: bold;
       font-style: italic;
