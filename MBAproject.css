@@ -146,7 +146,7 @@ em {
     font-weight: bold;
   }
 
-  div a {
+  .quiz_box .answer_result .modoru {
     text-align: center;
   }
 
