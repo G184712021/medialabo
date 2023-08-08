@@ -243,6 +243,7 @@ body {
         margin-bottom: 10px;
         padding-bottom: 80px;
         width: 400px;
+        font-weight: bold;
 
         flex-flow: column;
         height:300px;
