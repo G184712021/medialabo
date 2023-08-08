@@ -281,10 +281,10 @@ em {
         height:700px;
         flex-flow: column;
         margin: 0 auto;*/
-        width: 500px;
-    padding: 0px;
-    box-sizing: border-box;
-    cursor: pointer;
+        width: 700px;
+        padding: 0px;
+        box-sizing: border-box;
+        cursor: pointer;
         
       }
       .quiz_box .answer_box .answer {
