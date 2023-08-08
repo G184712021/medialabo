@@ -249,7 +249,7 @@ em {
     }
     
     .setumei {
-      /*text-align: center;*/
+      text-align: center;
       font-size: 30px;
     }
 
@@ -277,7 +277,7 @@ em {
         padding:1em;
         margin:0.5em auto;
         width:100%;
-        font-size: 20px;
+        font-size: 30px;
       }
       .quiz_box .hint {/*ヒント*/
         border: solid 1px #000000;
