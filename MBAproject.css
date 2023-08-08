@@ -243,7 +243,7 @@ body {
         margin-bottom: 10px;
         padding-bottom: 80px;
         width: 400px;
-        font-weight: bold;
+        
 
         flex-flow: column;
         height:300px;
@@ -257,6 +257,7 @@ body {
       }
       .quiz_box .hint {/*ヒント*/
         border: solid 1px #000000;
+        font-weight: bold;
         width: 20%;
         margin-top: 20px;
         margin-right: 10px;
