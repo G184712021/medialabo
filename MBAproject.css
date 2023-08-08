@@ -276,11 +276,11 @@ em {
         margin-top: 10px;
         margin-bottom: 10px;
         padding-bottom: 80px;
-        width: 400px;
+        width: 500px;
         
 
         flex-flow: column;
-        height:400px;
+        height:300px;
         margin: 0 auto;
       }
       .quiz_box .answer_box .answer {
