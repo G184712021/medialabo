@@ -1,7 +1,7 @@
 const quiz = [
     {
         questionNumber: '質問1',
-        question: 'するの尊敬語は？',
+        question: '"する"の尊敬語は？',
         answers: [
             'A.なさる、される',
             'B.いたす',
