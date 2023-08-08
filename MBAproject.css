@@ -2,6 +2,10 @@ body {
   background-color: rgb(213, 234, 109);
 }
 
+em {
+  font-weight:bold;
+}
+
 .title {
   /*text-align: center;
   border:rgb(251, 255, 0);
@@ -39,9 +43,7 @@ body {
   text-align: center;
 }
 
-em {
-  font-weight:bold;
-}
+
 
 .quiz_box {
     position: relative;
