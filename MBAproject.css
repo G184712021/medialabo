@@ -39,6 +39,10 @@ body {
   text-align: center;
 }
 
+p em {
+  font-weight: bold;
+}
+
 .quiz_box {
     position: relative;
     width: 800px;
