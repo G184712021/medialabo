@@ -266,7 +266,7 @@ em {
       width: 1025px;
       height: 1200px;
       background-color: #fdde98;
-      margin: 5 auto;
+      margin: 0 auto;
       margin-top: 40px;
       border: solid; 
     }
@@ -280,7 +280,7 @@ em {
         
 
         flex-flow: column;
-        height:300px;
+        height:400px;
         margin: 0 auto;
       }
       .quiz_box .answer_box .answer {
