@@ -146,6 +146,10 @@ em {
     font-weight: bold;
   }
 
+  a {
+    text-align: center;
+  }
+
   .quiz_box .active_answer {
     visibility: visible;
     opacity: 0.8;
