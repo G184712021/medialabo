@@ -218,7 +218,7 @@ const buttonLength = $button.length
 
 
 function alertButton(){
-  alert(hint);
+  alert(quiz[this].hint);
   
   
 }
