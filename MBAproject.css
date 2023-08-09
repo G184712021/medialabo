@@ -153,7 +153,7 @@ em {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: solid 1px #a65353;
+    border-bottom: solid 1px #000000;
     font-weight: bold;
     
   }
@@ -178,7 +178,7 @@ em {
   }
    
   .quiz_box .answer_box .answer {
-    border: solid 1px #000000;
+    border: solid 2px #000000;
     width: 100%;
     margin-top: 30px;
     margin-right: 10px;
