@@ -271,7 +271,7 @@ const quiz = [
             answerResult.classList.add("active_result")
             answerResultText.textContent = '終了！あなたの正解数は' + score + '/' + quizLength + 'です！'
             if(score <= 5){
-              answerResultTextcomment.textContent = 'もうちょっと頑張りましょう'
+              answerResultTextcomment.textContent = 'もうちょっと頑張りましょう...'
             } else if(score >= 6 && score <=10){
               answerResultTextcomment.textContent = 'いい感じです!あと少し!'
             } else {
