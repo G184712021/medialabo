@@ -180,26 +180,11 @@ const quiz = [
   correct: 'A.くださる,お与えになる',
   hint: '差し上げるは謙譲語なので違います'
 },
-/*
-{
-  questionNumber: '質問',
-  question: 'の尊敬語は？',
-  answers: [
-      'a.',
-      'b.',
-      'c.',
-      'd.',
-  ],
-  correct: ''
-},
-*/
 ]
 
 document.addEventListener('DOMContentLoaded', (event) => {
   document.getElementById('button1').addEventListener("click", alertButton);
 });
-
-
 
 function shuffleQuiz(array) {
   for (let i = (array.length - 1); 0 < i; i--) {
@@ -210,7 +195,6 @@ function shuffleQuiz(array) {
   }
   return array;
 }
-
 shuffleQuiz(quiz);
 
 let quizCount = 0;
@@ -220,19 +204,10 @@ let score = 0;
 
 const $button = document.querySelectorAll('.answer');
 const buttonLength = $button.length
-
-
 let h2 = document.querySelector('div#js-number');
-/*let hinto = document.querySelector('input#button1');*/
-
-
-
-      
-
 
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
-  /*document.getElementById('js-number').textContent = quiz[quizCount].questionNumber*/
   let buttonCount = 0;
 
   while (buttonCount < buttonLength) {
