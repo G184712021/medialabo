@@ -179,6 +179,19 @@ const quiz = [
 */
 ]
 
+
+function shuffleQuiz(array) {
+  for (let i = (array.length - 1); 0 < i; i--) {
+    let random = Math.floor(Math.random() * (i + 1));
+    let selected = array[i];
+    array[i] = array[random];
+    array[random] = selected;
+  }
+  return array;
+}
+
+shuffleQuiz(quiz);
+
 let quizCount = 0;
 const quizLength = quiz.length;
 let score = 0;
