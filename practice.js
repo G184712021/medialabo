@@ -199,6 +199,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
   document.getElementById('button1').addEventListener("click", alertButton);
 });
 
+function alertButton(){
+  const currentHint = quiz[quizCount].hint;
+  alert(currentHint);
+}
+
 function shuffleQuiz(array) {
   for (let i = (array.length - 1); 0 < i; i--) {
     let random = Math.floor(Math.random() * (i + 1));
@@ -226,10 +231,7 @@ let h2 = document.querySelector('div#js-number');
 
 
       
-function alertButton(){
-  const currentHint = quiz[quizCount].hint;
-  alert(currentHint);
-}
+
 
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
