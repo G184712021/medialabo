@@ -236,10 +236,11 @@ function alertButton(){
   
 }
 
+document.getElementById('js-suuzi').textContent = quizCount
+
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
   document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
-  document.getElementById('js-suuzi').textContent = quizCount
   let buttonCount = 0;
 
   while (buttonCount < buttonLength) {
