@@ -280,6 +280,7 @@ while (clickedCount < buttonLength) {
       }
 
       quizCount++;
+      mondaicount++;
       if (quizCount < quizLength) {
           setTimeout (function(){
             h2.textContent = mondaicount + "問目";
