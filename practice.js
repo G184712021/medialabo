@@ -249,8 +249,6 @@ const setupQuiz = () => {
 }
 setupQuiz();
 
-let h2 = document.querySelector('div#js-number');
-h2.textContent = quizCount;
 
 
 let clickedCount = 0;
@@ -278,6 +276,9 @@ while (clickedCount < buttonLength) {
       }
 
       quizCount++;
+      let h2 = document.querySelector('div#js-number');
+      h2.textContent = quizCount;
+
       if (quizCount <= quizLength) {
           setTimeout (function(){
           setupQuiz();
