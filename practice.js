@@ -195,6 +195,9 @@ const quiz = [
 */
 ]
 
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.getElementById('button1').addEventListener("click", alertButton);
+});
 
 function shuffleQuiz(array) {
   for (let i = (array.length - 1); 0 < i; i--) {
@@ -220,9 +223,7 @@ const buttonLength = $button.length
 let h2 = document.querySelector('div#js-number');
 /*let hinto = document.querySelector('input#button1');*/
 
-document.addEventListener('DOMContentLoaded', (event) => {
-  document.getElementById('button1').addEventListener("click", alertButton);
-});
+
 
       
 function alertButton(){
