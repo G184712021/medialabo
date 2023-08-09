@@ -238,7 +238,7 @@ function alertButton(){
 
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
-  document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
+  /*document.getElementById('js-number').textContent = quiz[quizCount].questionNumber*/
   let buttonCount = 0;
 
   while (buttonCount < buttonLength) {
