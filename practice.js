@@ -1,6 +1,6 @@
 const quiz = [
   {
-      questionNumber: '問目',
+      questionNumber: '1',
       question: '"する"の尊敬語は？',
       answers: [
           'A.なさる,される',
@@ -11,7 +11,7 @@ const quiz = [
       correct: 'A.なさる,される'
   },
   {
-      questionNumber: '問目',
+      questionNumber: '2',
       question: '"言う"の尊敬語は？',
       answers: [
           'A.申す,申し上げる',
@@ -22,7 +22,7 @@ const quiz = [
       correct: 'C.おっしゃる,言われる'
   },
   {
-      questionNumber: '問目',
+      questionNumber: '3',
       question: '"行く"の尊敬語は？',
       answers: [
           'A.うかがう,参る',
@@ -33,7 +33,7 @@ const quiz = [
       correct: 'D.いらっしゃる,おいでになる'
   },
   {
-    questionNumber: '問目',
+    questionNumber: '4',
     question: '"来る"の尊敬語は？',
     answers: [
         'A.来る',
@@ -44,7 +44,7 @@ const quiz = [
     correct: 'C.いらっしゃる,お越しになる'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '5',
   question: '"知る"の尊敬語は？',
   answers: [
       'A.存じる,存じ上げる,承知する',
@@ -55,7 +55,7 @@ const quiz = [
   correct: 'B.お知りになる,ご存じだ'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '6',
   question: '"食べる"の尊敬語は？',
   answers: [
       'A.召し上がる,おあがりになる',
@@ -66,7 +66,7 @@ const quiz = [
   correct: 'A.召し上がる,おあがりになる'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '7',
   question: '"いる"の尊敬語は？',
   answers: [
       'A.おる',
@@ -77,7 +77,7 @@ const quiz = [
   correct: 'B.いらっしゃる,おいでになる'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '8',
   question: '"見る"の尊敬語は？',
   answers: [
       'A.拝見する',
@@ -88,7 +88,7 @@ const quiz = [
   correct: 'D.ご覧になる'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '9',
   question: '"聞く"の尊敬語は？',
   answers: [
       'A.お聞きになる',
@@ -99,7 +99,7 @@ const quiz = [
   correct: 'A.お聞きになる'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '10',
   question: '"座る"の尊敬語は？',
   answers: [
       'A.お座りする,座らせていただく',
@@ -110,7 +110,7 @@ const quiz = [
   correct: 'C.お掛けになる'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '11',
   question: '"会う"の尊敬語は？',
   answers: [
       'A.会う',
@@ -121,7 +121,7 @@ const quiz = [
   correct: 'D.お会いになる,会われる'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '12',
   question: '"伝える"の尊敬語は？',
   answers: [
       'A.申し伝える',
@@ -132,7 +132,7 @@ const quiz = [
   correct: 'B.お伝えになる'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '13',
   question: '"わかる"の尊敬語は？',
   answers: [
       'A.おわかりになる,ご理解いただく',
@@ -143,7 +143,7 @@ const quiz = [
   correct: 'A.おわかりになる,ご理解いただく'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '14',
   question: '"読む"の尊敬語は？',
   answers: [
       'A.読む',
@@ -154,7 +154,7 @@ const quiz = [
   correct: 'D.お読みになる'
 },
 {
-  questionNumber: '問目',
+  questionNumber: '15',
   question: '"与える"の尊敬語は？',
   answers: [
       'A.くださる,お与えになる',
@@ -192,7 +192,8 @@ function shuffleQuiz(array) {
 
 shuffleQuiz(quiz);
 
-let quizCount = 1;
+let quizCount = 0;
+let mondaicount = 1;
 const quizLength = quiz.length;
 let score = 0;
 
