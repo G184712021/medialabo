@@ -278,9 +278,9 @@ while (clickedCount < buttonLength) {
       }
 
       quizCount++;
-      h2.textContent = quizCount;
       if (quizCount <= quizLength) {
           setTimeout (function(){
+            h2.textContent = quizCount;
           setupQuiz();
       }, 1000);
       }
