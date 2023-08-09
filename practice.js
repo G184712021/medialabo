@@ -236,8 +236,6 @@ function alertButton(){
   
 }
 
-document.getElementById('js-suuzi').textContent = quizCount
-
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
   document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
@@ -250,6 +248,8 @@ const setupQuiz = () => {
 }
 setupQuiz();
 
+
+document.getElementById('js-suuzi').textContent = quizCount
 
 let clickedCount = 0;
 while (clickedCount < buttonLength) {
