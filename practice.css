@@ -40,7 +40,6 @@ em {
     margin: 0 auto;
     margin-top: 40px;
     border: solid; 
-    font-size: 20px;
   }
    
   .quiz_box .answer_correct {
@@ -149,7 +148,7 @@ em {
     opacity: 1;
   }
    
-  .quiz_box .question_number {
+  .quiz_box .question_number { /*質問＋数*/
     font-size: 30px;
     text-align: center;
     padding-top: 10px;
