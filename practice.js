@@ -246,6 +246,7 @@ setupQuiz();
 function alertButton(){
   const currentHint = quiz[quizCount].hint;
   alert(currentHint);
+  event.stopPropagation();
 }
 
 let clickedCount = 0;
