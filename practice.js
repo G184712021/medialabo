@@ -244,9 +244,10 @@ h2.textContent = mondaicount + "問目";
 setupQuiz();
 
 function alertButton(){
+  event.stopPropagation();
   const currentHint = quiz[quizCount].hint;
   alert(currentHint);
-  event.stopPropagation();
+  
 }
 
 let clickedCount = 0;
