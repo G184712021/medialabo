@@ -235,8 +235,6 @@ function alertButton(){
   }
   
 }
-let h2 = document.querySelector('div#js-number');
-h2.textContent = quizCount;
 
 
 const setupQuiz = () => {
@@ -250,6 +248,9 @@ const setupQuiz = () => {
   }
 }
 setupQuiz();
+
+let h2 = document.querySelector('div#js-number');
+h2.textContent = quizCount;
 
 
 let clickedCount = 0;
