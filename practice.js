@@ -218,11 +218,16 @@ const buttonLength = $button.length
 
 
 let h2 = document.querySelector('div#js-number');
-let hinto = document.querySelector('input#button1');
+/*let hinto = document.querySelector('input#button1');*/
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.getElementById('button1').addEventListener("click", alertButton);
+});
+
       
 function alertButton(){
-  hinto = textContent = quiz[this].hint
-  alert(hinto);
+  const currentHint = quiz[quizCount].hint;
+  alert(currentHint);
 }
 
 const setupQuiz = () => {
