@@ -199,10 +199,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   document.getElementById('button1').addEventListener("click", alertButton);
 });
 
-function alertButton(){
-  const currentHint = quiz[quizCount].hint;
-  alert(currentHint);
-}
+
 
 function shuffleQuiz(array) {
   for (let i = (array.length - 1); 0 < i; i--) {
@@ -246,7 +243,10 @@ const setupQuiz = () => {
 h2.textContent = mondaicount + "問目";
 setupQuiz();
 
-
+function alertButton(){
+  const currentHint = quiz[quizCount].hint;
+  alert(currentHint);
+}
 
 let clickedCount = 0;
 while (clickedCount < buttonLength) {
