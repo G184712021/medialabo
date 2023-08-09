@@ -249,6 +249,7 @@ const setupQuiz = () => {
       buttonCount++;
   }
 }
+h2.textContent = quizCount + "問目";
 setupQuiz();
 
 
