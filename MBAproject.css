@@ -127,6 +127,7 @@ em {
 
   div.center {
     text-align: center;
+    font-size: 30px;
   }
 
   .quiz_box .active_answer {
