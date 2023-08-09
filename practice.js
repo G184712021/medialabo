@@ -8,7 +8,8 @@ const quiz = [
           'C.させていただく',
           'D.します',
       ],
-      correct: 'A.なさる,される'
+      correct: 'A.なさる,される',
+      hint: 'いたす、させていただくは謙譲語なので違います'
   },
   {
       questionNumber: '2',
@@ -19,7 +20,9 @@ const quiz = [
           'C.おっしゃる,言われる',
           'D.言う',
       ],
-      correct: 'C.おっしゃる,言われる'
+      correct: 'C.おっしゃる,言われる',
+      hint: '申す、申し上げるは謙譲語なので違います'
+      
   },
   {
       questionNumber: '3',
@@ -30,7 +33,8 @@ const quiz = [
           'C.行く',
           'D.いらっしゃる,おいでになる',
       ],
-      correct: 'D.いらっしゃる,おいでになる'
+      correct: 'D.いらっしゃる,おいでになる',
+      hint: 'うかがう、参るは謙譲語なので違います'
   },
   {
     questionNumber: '4',
@@ -41,7 +45,8 @@ const quiz = [
         'C.いらっしゃる,お越しになる',
         'D.うかがう,参る',
     ],
-    correct: 'C.いらっしゃる,お越しになる'
+    correct: 'C.いらっしゃる,お越しになる',
+    hint: 'うかがう、参るは謙譲語なので違います'
 },
 {
   questionNumber: '5',
@@ -52,7 +57,8 @@ const quiz = [
       'C.知る',
       'D.知っています',
   ],
-  correct: 'B.お知りになる,ご存じだ'
+  correct: 'B.お知りになる,ご存じだ',
+  hint: '存じる、存じ上げる、承知するは謙譲語のなので違います'
 },
 {
   questionNumber: '6',
@@ -63,7 +69,8 @@ const quiz = [
       'C.食べる',
       'D.いただく,頂戴する',
   ],
-  correct: 'A.召し上がる,おあがりになる'
+  correct: 'A.召し上がる,おあがりになる',
+  hint: 'いただく、頂戴するは謙譲語なので違います'
 },
 {
   questionNumber: '7',
@@ -74,7 +81,8 @@ const quiz = [
       'C.いらない',
       'D.います',
   ],
-  correct: 'B.いらっしゃる,おいでになる'
+  correct: 'B.いらっしゃる,おいでになる',
+  hint: 'おるは謙譲語なので違います'
 },
 {
   questionNumber: '8',
@@ -85,7 +93,8 @@ const quiz = [
       'C.watch',
       'D.ご覧になる',
   ],
-  correct: 'D.ご覧になる'
+  correct: 'D.ご覧になる',
+  hint: '拝見するは謙譲語なので違います'
 },
 {
   questionNumber: '9',
@@ -96,7 +105,8 @@ const quiz = [
       'C.聞く',
       'D.拝聴する,うかがう',
   ],
-  correct: 'A.お聞きになる'
+  correct: 'A.お聞きになる',
+  hint: '拝聴する、うかがうは謙譲語なので違います'
 },
 {
   questionNumber: '10',
@@ -107,7 +117,8 @@ const quiz = [
       'C.お掛けになる',
       'D.座る',
   ],
-  correct: 'C.お掛けになる'
+  correct: 'C.お掛けになる',
+  hint: 'お座りする、座らせていただくは謙譲語なので違います'
 },
 {
   questionNumber: '11',
@@ -118,7 +129,8 @@ const quiz = [
       'C.お目にかかる',
       'D.お会いになる,会われる',
   ],
-  correct: 'D.お会いになる,会われる'
+  correct: 'D.お会いになる,会われる',
+  hint: 'お目にかかるは謙譲語なので違います'
 },
 {
   questionNumber: '12',
@@ -129,7 +141,8 @@ const quiz = [
       'C.伝えます',
       'D.伝える',
   ],
-  correct: 'B.お伝えになる'
+  correct: 'B.お伝えになる',
+  hint: '申し伝えるは謙譲語なので違います'
 },
 {
   questionNumber: '13',
@@ -140,7 +153,8 @@ const quiz = [
       'C.わかりました',
       'D.わかる',
   ],
-  correct: 'A.おわかりになる,ご理解いただく'
+  correct: 'A.おわかりになる,ご理解いただく',
+  hint: 'かしこまる、承知するは謙譲語なので違います'
 },
 {
   questionNumber: '14',
@@ -151,7 +165,8 @@ const quiz = [
       'C.拝読する',
       'D.お読みになる',
   ],
-  correct: 'D.お読みになる'
+  correct: 'D.お読みになる',
+  hint: '拝読するは謙譲語なので違います'
 },
 {
   questionNumber: '15',
@@ -162,7 +177,8 @@ const quiz = [
       'C.あげます',
       'D.与える',
   ],
-  correct: 'A.くださる,お与えになる'
+  correct: 'A.くださる,お与えになる',
+  hint: '差し上げるは謙譲語なので違います'
 },
 /*
 {
@@ -202,38 +218,8 @@ const buttonLength = $button.length
 
 
 function alertButton(){
-  switch(quizCount){
-  case 0:alert('いたす、させていただくは謙譲語なので違います');//質問1
-  break;
-  case 1:alert('申す、申し上げるは謙譲語なので違います');//質問2
-  break;
-  case 2:alert('うかがう、参るは謙譲語なので違います');//質問3
-  break;
-  case 3:alert('うかがう、参るは謙譲語なので違います');//質問4
-  break;
-  case 4:alert('存じる、存じ上げる、承知するは謙譲語のなので違います');//質問5
-  break;
-  case 5:alert('いただく、頂戴するは謙譲語なので違います');//質問6
-  break;
-  case 6:alert('おるは謙譲語なので違います');//質問7
-  break;
-  case 7:alert('拝見するは謙譲語なので違います');//質問8
-  break;
-  case 8:alert('拝聴する、うかがうは謙譲語なので違います');//質問9
-  break;
-  case 9:alert('お座りする、座らせていただくは謙譲語なので違います');//質問10
-  break;
-  case 10:alert('お目にかかるは謙譲語なので違います');//質問11
-  break;
-  case 11:alert('申し伝えるは謙譲語なので違います');//質問12
-  break;
-  case 12:alert('かしこまる、承知するは謙譲語なので違います');//質問13
-  break;
-  case 13:alert('拝読するは謙譲語なので違います');//質問14
-  break;
-  case 14:alert('差し上げるは謙譲語なので違います');//質問15
-  break;
-  }
+  alert(hint);
+  
   
 }
 let h2 = document.querySelector('div#js-number');
