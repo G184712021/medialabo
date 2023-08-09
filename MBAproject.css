@@ -15,7 +15,13 @@ em {
   /*font-weight: bold;*/
   /*font-style: italic;*/
     /*font-family: Times New Roman, "ＭＳ Ｐゴシック";*/
-    font-family: "Toppan Bunkyu Midashi Gothic","凸版文久見出しゴシック";
+
+    /*font-family: "Toppan Bunkyu Midashi Gothic","凸版文久見出しゴシック";*/
+
+    font-family: "游教科書体","YuKyokasho"; 
+    font-weight: bold;
+
+
 }
 
 
