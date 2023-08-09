@@ -279,7 +279,7 @@ while (clickedCount < buttonLength) {
       }
 
       quizCount++;
-      if (quizCount < quizLength + 1) {
+      if (quizCount < quizLength) {
           setTimeout (function(){
             h2.textContent = quizCount + "問目";
           setupQuiz();
