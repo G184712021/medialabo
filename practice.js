@@ -235,6 +235,9 @@ function alertButton(){
   }
   
 }
+let h2 = document.querySelector('div#js-number');
+h2.textContent = quizCount;
+
 
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
