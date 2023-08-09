@@ -249,8 +249,6 @@ const setupQuiz = () => {
 setupQuiz();
 
 
-document.getElementById('js-suuzi').textContent = quizCount
-
 let clickedCount = 0;
 while (clickedCount < buttonLength) {
   $button[clickedCount].addEventListener("click", function () {
