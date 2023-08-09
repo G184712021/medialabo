@@ -1,84 +1,84 @@
 const quiz = [
   {
       questionNumber: '質問1',
-      question: 'するの尊敬語は？',
+      question: '"する"の尊敬語は？',
       answers: [
-          'A.なさる、される',
+          'A.なさる,される',
           'B.いたす',
           'C.させていただく',
           'D.します',
       ],
-      correct: 'A.なさる、される'
+      correct: 'A.なさる,される'
   },
   {
       questionNumber: '質問2',
-      question: '言うの尊敬語は？',
+      question: '"言う"の尊敬語は？',
       answers: [
-          'A.申す、申し上げる',
+          'A.申す,申し上げる',
           'B.言います',
-          'C.おっしゃる　　　　言われる',
+          'C.おっしゃる,言われる',
           'D.言う',
       ],
-      correct: 'C.おっしゃる　　　　言われる'
+      correct: 'C.おっしゃる,言われる'
   },
   {
       questionNumber: '質問3',
-      question: '行くの尊敬語は？',
+      question: '"行く"の尊敬語は？',
       answers: [
-          'A.うかがう、参る',
+          'A.うかがう,参る',
           'B.行きます',
           'C.行く',
-          'D.いらっしゃる　　　　おいでになる',
+          'D.いらっしゃる,おいでになる',
       ],
-      correct: 'D.いらっしゃる　　　　おいでになる'
+      correct: 'D.いらっしゃる,おいでになる'
   },
   {
     questionNumber: '質問4',
-    question: '来るの尊敬語は？',
+    question: '"来る"の尊敬語は？',
     answers: [
         'A.来る',
         'B.来ます',
-        'C.いらっしゃる　　　　おいでになる　　　　見える　　　　　　　　  お越しになる',
-        'D.うかがう、参る',
+        'C.いらっしゃる,お越しになる',
+        'D.うかがう,参る',
     ],
-    correct: 'C.いらっしゃる　　　　おいでになる　　　　見える　　　　　　　　  お越しになる'
+    correct: 'C.いらっしゃる,お越しになる'
 },
 {
   questionNumber: '質問5',
-  question: '知るの尊敬語は？',
+  question: '"知る"の尊敬語は？',
   answers: [
-      'A.存じる　　　　　　存じ上げる　　　　　　承知する',
-      'B.お知りになる　　　　ご存じだ',
+      'A.存じる,存じ上げる,承知する',
+      'B.お知りになる,ご存じだ',
       'C.知る',
       'D.知っています',
   ],
-  correct: 'B.お知りになる　　　　ご存じだ'
+  correct: 'B.お知りになる,ご存じだ'
 },
 {
   questionNumber: '質問6',
-  question: '食べるの尊敬語は？',
+  question: '"食べる"の尊敬語は？',
   answers: [
-      'A.召し上がる　　　　おあがりになる',
+      'A.召し上がる,おあがりになる',
       'B.食べます',
       'C.食べる',
-      'D.いただく、頂戴する',
+      'D.いただく,頂戴する',
   ],
-  correct: 'A.召し上がる　　　　おあがりになる'
+  correct: 'A.召し上がる,おあがりになる'
 },
 {
   questionNumber: '質問7',
-  question: 'いるの尊敬語は？',
+  question: '"いる"の尊敬語は？',
   answers: [
       'A.おる',
-      'B.いらっしゃる　　　おいでになる',
+      'B.いらっしゃる,おいでになる',
       'C.いらない',
       'D.います',
   ],
-  correct: 'B.いらっしゃる　　　おいでになる'
+  correct: 'B.いらっしゃる,おいでになる'
 },
 {
   questionNumber: '質問8',
-  question: '見るの尊敬語は？',
+  question: '"見る"の尊敬語は？',
   answers: [
       'A.拝見する',
       'B.見ます',
@@ -89,20 +89,20 @@ const quiz = [
 },
 {
   questionNumber: '質問9',
-  question: '聞くの尊敬語は？',
+  question: '"聞く"の尊敬語は？',
   answers: [
       'A.お聞きになる',
       'B.聞きます',
       'C.聞く',
-      'D.拝聴する、うかがう',
+      'D.拝聴する,うかがう',
   ],
   correct: 'A.お聞きになる'
 },
 {
   questionNumber: '質問10',
-  question: '座るの尊敬語は？',
+  question: '"座る"の尊敬語は？',
   answers: [
-      'A.お座りする　　　　座らせていただく',
+      'A.お座りする,座らせていただく',
       'B.座ります',
       'C.お掛けになる',
       'D.座る',
@@ -111,18 +111,18 @@ const quiz = [
 },
 {
   questionNumber: '質問11',
-  question: '会うの尊敬語は？',
+  question: '"会う"の尊敬語は？',
   answers: [
       'A.会う',
       'B.会います',
       'C.お目にかかる',
-      'D.お会いになる　　　会われる',
+      'D.お会いになる,会われる',
   ],
-  correct: 'D.お会いになる　　　会われる'
+  correct: 'D.お会いになる,会われる'
 },
 {
   questionNumber: '質問12',
-  question: '伝えるの尊敬語は？',
+  question: '"伝える"の尊敬語は？',
   answers: [
       'A.申し伝える',
       'B.お伝えになる',
@@ -133,18 +133,18 @@ const quiz = [
 },
 {
   questionNumber: '質問13',
-  question: 'わかるの尊敬語は？',
+  question: '"わかる"の尊敬語は？',
   answers: [
-      'A.おわかりになる　　ご理解いただく',
-      'B.かしこまる　　　　承知する',
+      'A.おわかりになる,ご理解いただく',
+      'B.かしこまる,承知する',
       'C.わかりました',
       'D.わかる',
   ],
-  correct: 'A.おわかりになる　　ご理解いただく'
+  correct: 'A.おわかりになる,ご理解いただく'
 },
 {
   questionNumber: '質問14',
-  question: '読むの尊敬語は？',
+  question: '"読む"の尊敬語は？',
   answers: [
       'A.読む',
       'B.読みます',
@@ -155,14 +155,14 @@ const quiz = [
 },
 {
   questionNumber: '質問15',
-  question: '与えるの尊敬語は？',
+  question: '"与える"の尊敬語は？',
   answers: [
-      'A.くださる　　　　　お与えになる',
+      'A.くださる,お与えになる',
       'B.差し上げる',
       'C.あげます',
       'D.与える',
   ],
-  correct: 'A.くださる　　　　　お与えになる'
+  correct: 'A.くださる,お与えになる'
 },
 /*
 {
@@ -271,7 +271,7 @@ while (clickedCount < buttonLength) {
           answerResult.classList.add("active_result")
           answerResultText.textContent = '終了！あなたの正解数は' + score + '/' + quizLength + 'です！'
           if(score <= 5){
-            answerResultTextcomment.textContent = 'もうちょっと頑張りましょう'
+            answerResultTextcomment.textContent = 'もうちょっと頑張りましょう...'
           } else if(score >= 6 && score <=10){
             answerResultTextcomment.textContent = 'いい感じです!あと少し!'
           } else {
