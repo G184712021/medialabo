@@ -217,14 +217,13 @@ const $button = document.querySelectorAll('.answer');
 const buttonLength = $button.length
 
 
-function alertButton(){
-  alert(quiz[this].hint);
-  
-  
-}
 let h2 = document.querySelector('div#js-number');
+let hinto = document.querySelector('input#button1');
       
-
+function alertButton(){
+  hinto = textContent = quiz[this].hint
+  alert(hinto);
+}
 
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
