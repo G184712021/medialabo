@@ -12,10 +12,10 @@ em {
   color:rgb(0, 0, 0);
   border-bottom: double 5px #FFC778;*/
   text-align: center;
-  font-weight: bold;
-  font-style: italic;
-    font-family: Times New Roman, "ＭＳ Ｐゴシック";
-    /*font-family: "Toppan Bunkyu Midashi Gothic","凸版文久見出しゴシック";*/
+  /*font-weight: bold;*/
+  /*font-style: italic;*/
+    /*font-family: Times New Roman, "ＭＳ Ｐゴシック";*/
+    font-family: "Toppan Bunkyu Midashi Gothic","凸版文久見出しゴシック";
 }
 
 
