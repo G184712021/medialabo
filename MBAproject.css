@@ -207,10 +207,12 @@ em {
     .title {
       width: 1000px;
       text-align: center;
-      font-weight: bold;
+      /*font-weight: bold;
       font-style: italic;
-      font-family: Times New Roman, "ＭＳ Ｐゴシック";
-      font-size: 30px;
+      font-family: Times New Roman, "ＭＳ Ｐゴシック";*/
+      font-family: "游教科書体","YuKyokasho"; 
+    font-weight: bold;
+    font-size: 50px;
     }
 
     
