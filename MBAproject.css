@@ -8,14 +8,7 @@ em {
 }
 
 .title {
-  /*text-align: center;
-  border:rgb(251, 255, 0);
-  color:rgb(0, 0, 0);
-  border-bottom: double 5px #FFC778;*/
   text-align: center;
-  /*font-weight: bold;*/
-  /*font-style: italic;*/
-    /*font-family: Times New Roman, "ＭＳ Ｐゴシック";*/
     font-family: "游教科書体","YuKyokasho"; 
     font-weight: bold;
     font-size: 30px;
@@ -201,12 +194,6 @@ em {
     color: rgb(0, 0, 0);
   }
 
-  /*.goback-button {
-    font-size: 14px;
-    color: #fff;
-    margin-top: 30px;
-    display: inline-block;
-  }*/
 
 
 
@@ -214,9 +201,6 @@ em {
     .title {
       width: 1000px;
       text-align: center;
-      /*font-weight: bold;
-      font-style: italic;
-      font-family: Times New Roman, "ＭＳ Ｐゴシック";*/
       font-family: "游教科書体","YuKyokasho"; 
     font-weight: bold;
     font-size: 70px;
@@ -230,7 +214,6 @@ em {
     }
 
     body {
-        /*border: 1px solid #CCC;*/
         position: relative;
         width: 1000px;
         margin: 0 auto;
@@ -249,14 +232,6 @@ em {
   
     .quiz_box .answer_box {
         display:flex;
-        /*width: 500px;
-        padding: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding-bottom: 80px;
-        height:700px;
-        flex-flow: column;
-        margin: 0 auto;*/
         flex-flow: column;
         width: 700px;
         padding: 0px;
