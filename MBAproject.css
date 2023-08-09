@@ -197,6 +197,10 @@ em {
     cursor: pointer;
   }
 
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+
   /*.goback-button {
     font-size: 14px;
     color: #fff;
