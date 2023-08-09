@@ -40,6 +40,7 @@ em {
     margin: 0 auto;
     margin-top: 40px;
     border: solid; 
+    font-size: 20px;
   }
    
   .quiz_box .answer_correct {
