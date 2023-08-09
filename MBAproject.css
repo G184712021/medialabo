@@ -268,5 +268,14 @@ em {
         cursor: pointer;
       }
 
+      .quiz_box .answer_result .answer_result_title {
+        color:red;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: solid 1px #000000;
+        font-size: 30px;
+      }
+
       
   }
