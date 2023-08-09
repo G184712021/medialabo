@@ -282,5 +282,13 @@ em {
         padding: 50px;
         font-size: 30px;
       }
+
+      .quiz_box .answer_result .answer_result_comment {
+        text-align: center;
+        padding: 50px;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    
       
   }
