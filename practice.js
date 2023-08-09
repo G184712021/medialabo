@@ -192,7 +192,7 @@ function shuffleQuiz(array) {
 
 shuffleQuiz(quiz);
 
-let quizCount = 0;
+let quizCount = 1;
 const quizLength = quiz.length;
 let score = 0;
 
@@ -239,7 +239,7 @@ function alertButton(){
 const setupQuiz = () => {
   document.getElementById('js-question').textContent = quiz[quizCount].question
   document.getElementById('js-number').textContent = quiz[quizCount].questionNumber
-   
+  document.getElementById('js-suuzi').textContent = quizCount
   let buttonCount = 0;
 
   while (buttonCount < buttonLength) {
@@ -275,7 +275,7 @@ while (clickedCount < buttonLength) {
       }
 
       quizCount++;
-      if (quizCount < quizLength) {
+      if (quizCount <= quizLength) {
           setTimeout (function(){
           setupQuiz();
       }, 1000);
