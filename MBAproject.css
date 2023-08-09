@@ -210,7 +210,7 @@ em {
 
 
 
-  @media(max-width:750px){
+  @media(max-width:/*750*/810px){
     .title {
       width: 1000px;
       text-align: center;
