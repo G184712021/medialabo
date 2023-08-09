@@ -116,18 +116,18 @@ em {
     text-align: center;
     padding: 50px;
     font-size: 18px;
+    font-weight: bold;
   }
    
   .quiz_box .answer_result .answer_result_comment {
     text-align: center;
     padding: 50px;
     font-size: 18px;
-    font-weight: bold;
   }
 
   div.center {
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .quiz_box .active_answer {
@@ -282,14 +282,17 @@ em {
         text-align: center;
         padding: 50px;
         font-size: 30px;
+        font-weight: bold;
       }
 
       .quiz_box .answer_result .answer_result_comment {
         text-align: center;
         padding: 50px;
         font-size: 30px;
-        font-weight: bold;
       }
     
-      
+      div.center {
+        text-align: center;
+        font-size: 30px;
+      }
   }
