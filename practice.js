@@ -250,7 +250,7 @@ const setupQuiz = () => {
       buttonCount++;
   }
 }
-h2.textContent = quizCount + "問目";
+h2.textContent = mondaicount + "問目";
 setupQuiz();
 
 
@@ -282,7 +282,7 @@ while (clickedCount < buttonLength) {
       quizCount++;
       if (quizCount < quizLength) {
           setTimeout (function(){
-            h2.textContent = quizCount + "問目";
+            h2.textContent = mondaicount + "問目";
           setupQuiz();
       }, 1000);
       }
