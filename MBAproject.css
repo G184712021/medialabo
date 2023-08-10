@@ -181,8 +181,7 @@ em {
     cursor: pointer;
   }
   
-
-  .quiz_box .answer_box .answer { color:red; }
+  .quiz_box .answer_box .answer::first-letter { color:red; }
  
 
   .quiz_box .hint {/*ヒント*/
