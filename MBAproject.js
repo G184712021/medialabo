@@ -452,9 +452,9 @@ while (clickedCount < buttonLength) {
       else {
           answerResult.classList.add("active_result")
           answerResultText.textContent = '終了！あなたの正解数は' + score + '/' + quizLength + 'です！'
-          if(score <= 5){
+          if(score <= 10){
             answerResultTextcomment.textContent = 'もうちょっと頑張りましょう...'
-          } else if(score >= 6 && score <=10){
+          } else if(score >= 11 && score <=20){
             answerResultTextcomment.textContent = 'いい感じです!あと少し!'
           } else {
             answerResultTextcomment.textContent = '素晴らしい!合格です!!'
