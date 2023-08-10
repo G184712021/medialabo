@@ -10,10 +10,10 @@ em {
 .title {
   text-align: center;
     font-family: "游教科書体","YuKyokasho"; 
-    font-weight: 100;
+    font-weight: bold;
     font-size: 90px;
     margin: 0;
-    
+    line-height:0;
 }
 
 
