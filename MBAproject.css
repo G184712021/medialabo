@@ -1,6 +1,5 @@
 body {
   background-color: rgb(213, 234, 109);
-  margin: 0
 }
 
 em {
@@ -13,6 +12,7 @@ em {
     font-family: "游教科書体","YuKyokasho"; 
     font-weight: bold;
     font-size: 100px;
+    margin: 0
 
 
 }
