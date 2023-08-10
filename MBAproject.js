@@ -180,6 +180,54 @@ const quiz = [
   correct: 'A.くださる,お与えになる',
   hint: '差し上げるは謙譲語なので違います'
 },
+{
+  questionNumber: '16',
+  question: '"受け取る"の尊敬語は？',
+  answers: [
+      'A.賜る、頂戴する、拝受する',
+      'B.受けとります',
+      'C.お受け取りになる',
+      'D.受け取る',
+  ],
+  correct: 'C.お受け取りになる',
+  hint: '賜る、頂戴する、拝受するは謙譲語なので違います'
+},
+{
+  questionNumber: '17',
+  question: '"利用する"の尊敬語は？',
+  answers: [
+      'A.利用させていただく',
+      'B.利用する',
+      'C.利用します',
+      'D.ご利用になる',
+  ],
+  correct: 'D.ご利用になる',
+  hint: '利用させていただくは謙譲語なので違います'
+},
+{
+  questionNumber: '18',
+  question: '"思う"の尊敬語は？',
+  answers: [
+      'A.お思いになる、おぼし召す',
+      'B.存じる、拝察する',
+      'C.思います',
+      'D.思う',
+  ],
+  correct: 'A.お思いになる、おぼし召す',
+  hint: '存じる、拝察するは謙譲語なので違います'
+},
+{
+  questionNumber: '19',
+  question: '"買う"の尊敬語は？',
+  answers: [
+      'A.買います',
+      'B.買う',
+      'C.お買いになる、お求めになる',
+      'D.買わせていただく',
+  ],
+  correct: 'C.お買いになる、お求めになる',
+  hint: '買わせていただくは謙譲語なので違います'
+},
 ]
 
 document.addEventListener('DOMContentLoaded', (event) => {
