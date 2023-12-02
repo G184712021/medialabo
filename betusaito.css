@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(33, 235, 33);
+}
+
+h1 {
+    text-align: center;
+    border: dashed rgb(0, 0, 0);
+    color:yellow;
+    background-color: black;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
